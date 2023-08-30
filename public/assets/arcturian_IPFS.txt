@@ -1,0 +1,5 @@
+Arcturian NFT storage:
+
+ipfs://bafyreic4df74plsiwtqsucsgguj3tx73asnzfmuu4bkyqj6bkqelcbipue/metadata.json
+
+wallet: 0x1B60e3fa320d103d85c27d2B1538172a35d7edd2
