@@ -10,6 +10,7 @@ const navigation = [
   { name: 'GAMES', href: 'games', current: false },
   { name: 'NFTs', href: 'nftmint', current: false },
   { name: 'TOKENS', href: 'token', current: false },
+
 ]
 
 function classNames(...classes: string[]) {
@@ -18,7 +19,7 @@ function classNames(...classes: string[]) {
 
 export default function Example() {
   return (
-    <Disclosure as="nav" className="bg-black fixed top-0 z-30 w-full border-b-2 border-b-indigo-200/30">
+    <Disclosure as="nav" className="bg-blue-900 fixed top-0 z-30 w-full border-b-2 border-b-indigo-200/30">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
