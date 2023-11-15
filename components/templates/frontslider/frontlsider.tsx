@@ -24,7 +24,7 @@ const fadeImages = [
 
 const FrontSlider = () => {
   return (
-    <div className="slide-container mt-10">
+    <div className="slide-container ">
       <Fade>
         {fadeImages.map((fadeImage, index) => (
           <div key={index}>

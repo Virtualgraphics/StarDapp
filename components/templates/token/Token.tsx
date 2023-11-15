@@ -16,31 +16,31 @@ const Token = () => {
       return (
 
 
-        <div className="justify-center px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-lg md:px-24 lg:px-8 lg:pt-20">
+        <div className="justify-center px-4 py-16 mx-auto  sm:px-4 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-8">
         <div className="max-w-screen-sm sm:text-center sm:mx-auto">
           
   
-            <div className="m-auto w-96 py-2">
-            <Image
-            className="m-auto w-96 py-2"
-            src="/assets/star_divider.svg"
-            alt="Star Divider"
-            width={1260}
-            height={750}
-          />
+        <div className="m-auto w-96">
+        <Image
+        className="m-auto py-2"
+        src="/assets/star_divider.svg"
+        alt="Star Divider"
+        width={1260}
+        height={750}
+      />
             </div>
 
-            <h2 className="m-auto mb-4 text-3xl font-bold tracking-tight text-yellow-100 sm:text-4xl sm:leading-none sm:m-auto font-Cinzel py-5">
+            <h2 className="m-auto mb-4 text-2xl text-center font-semibold tracking-wider text-yellow-100 sm:text-3xl sm:leading-none sm:m-auto font-Cinzel py-3">
             SKY GODZ  -TOKENS
             </h2>
             <hr className="w-full  border-yellow-200" />
-            <p className="text-base text-white lg:text-lg  md:text-lg sm:px-4 py-8 font-Proza">
+            <p className="text-base text-white text-center lg:text-lg  md:text-lg sm:px-4 py-8 font-Proza">
            Claim your SKY GODZ LOTUS and STARDUST tokens below and play the Stargazer Games. 
             </p>
 
-<div className="grid grid-cols-2 gap-20 place-content-stretch w-full h-96">
+<div className="grid max-w-screen-lg gap-8 row-gap-5 md:row-gap-8 sm:mx-auto lg:grid-cols-2">
 
-<div className="bg-indigo-900/20  rounded-2xl w-72 drop-shadow-lg justify-center" >
+<div className="bg-indigo-900/20  rounded-2xl w-72 drop-shadow-lg justify-center m-auto " >
 
 <Image
               className="p-10 rounded-full shadow-3xl"
@@ -50,10 +50,10 @@ const Token = () => {
               height={750}
             />
 
-          <h1 className="text-yellow-100 font-bold text-2xl ">LOTUS Token</h1>
-          <h2 className="text-white text-md py-2">Claim LOTUS Tokens</h2>
+          <h1 className="text-yellow-100 font-semibold  text-center text-2xl ">LOTUS Token</h1>
+          <h2 className="text-white text-md text-center py-2">Claim LOTUS Tokens</h2>
 
-<div className="mt-5 mb-5 max-w-sm justify-center">
+<div className="mt-5 mb-5  justify-center m-auto flex sm:w-8 md:w-32 lg:w-48">
           <input 
     id="1"
     type="text"  
@@ -66,13 +66,13 @@ className="flex-grow  h-10 px-2 mb-3 text-black text-base transitiom duration-20
     />
     </div>
 <div className="justify-center pb-8">
-<button className="bg-blue-500 hover:bg-blue-700 text-white w-40 h-10 font-bold  px-4 rounded mt-1 m-auto">
+<button className="bg-blue-500 hover:bg-blue-700 text-white w-36 h-10 font-semibold  py-2 rounded  justify-center m-auto flex ">
             Coming soon</button>
           </div>
               </div>
 
 
-<div className="bg-indigo-900/20 rounded-2xl w-72 drop-shadow-lg ">
+<div className="bg-indigo-900/20 rounded-2xl w-72 drop-shadow-lg  justify-center m-auto ">
 
 
 <Image
@@ -83,11 +83,11 @@ className="flex-grow  h-10 px-2 mb-3 text-black text-base transitiom duration-20
               height={750}
             />
 
-<h1 className="text-yellow-100 font-bold text-2xl">STARDUST Token</h1>
-<h2 className="text-white text-md py-2">Claim STARDUST Tokens</h2>
+<h1 className="text-yellow-100 font-semibold text-center text-2xl">STARDUST Token</h1>
+<h2 className="text-white text-md text-center py-2">Claim STARDUST Tokens</h2>
 
   
-<div className="mt-5 mb-5 max-w-sm justify-items-center">
+<div className="mt-5 mb-5 justify-center m-auto flex sm:w-8 md:w-32 lg:w-48">
 
           <input 
     id="1"
@@ -102,30 +102,23 @@ className="flex-grow  h-10 px-2 mb-3 text-black text-base transitiom duration-20
     </div>
    
    
-    <div className='w-60 flex items-center justify-center m-auto'>
-    <Web3Button 
-        
-         
-          contractAddress="0x94B0E73c4328A53ccc2CdeDbEeB2aF625984Af90"
-          action={(contract) => contract.erc20.claim(amountToClaim)}
-          onSuccess={() => alert("Claimed!")}
-          onError={(err) => alert(err)}
-        >
-          Claim STARDUST
-        
-          </Web3Button></div>
+    <div className="justify-center pb-8">
+<button className="bg-blue-500 hover:bg-blue-700 text-white w-36 h-10 font-semibold  py-2 rounded  justify-center m-auto flex ">
+            Coming soon</button>
+          </div>
          </div>
               </div>
 </div>
 
 
 
+  
 
-<div className="py-32  justify-items-center">
+<div className="pb-12  justify-items-center overflow-hidden">
 
-<div className=" pt-14 m-auto  justify-center">
+<div className=" pt-24 m-auto  justify-center">
 <h1 className=" text-white text-lg text-center font-semibold">
-              Use your SKY GODZ tokens for the following cool things:
+              Use your SKY GODZ tokens for the following cool activities:
             </h1></div>
 
       <div className="w-4/5 m-auto grid gap-8 row-gap-5 md:row-gap-8 lg:grid-cols-3 mt-10 sm:grid-cols-2">
@@ -155,7 +148,10 @@ className="flex-grow  h-10 px-2 mb-3 text-black text-base transitiom duration-20
             </p>
           </div>
         </div>
+        
+
         </div>
+
 
       </div>
  </div>
