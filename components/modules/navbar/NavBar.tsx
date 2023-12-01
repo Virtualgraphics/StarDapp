@@ -54,6 +54,9 @@ function NavBar() {
          <Link href="nftmint" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-12  text-white hover:text-yellow-100">
            NFTs
          </Link>
+         <Link href="calendar" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-12  text-white hover:text-yellow-100">
+           CALENDAR
+         </Link>
          <Link href="token" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-12  text-white hover:text-yellow-100">
            TOKENS
          </Link>
