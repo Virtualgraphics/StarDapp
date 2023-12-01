@@ -52,7 +52,7 @@ const CALENDAR = () => {
 
       {address ? (
         isLoadingNfts ? (
-          <p className="text-white text-2xl">Loading...</p>
+          <p className="text-white text-2xl text-center">Loading...</p>
         ) : (
           <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-4 mt-4">
             {nfts && nfts.length > 0 ? (

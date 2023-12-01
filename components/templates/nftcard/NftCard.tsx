@@ -23,11 +23,11 @@ const NftCard = () => {
               STARGAZER ADVENT CALENDAR
               </h5>
               <p className="mb-5 text-gray-300 text-center">
-              The Stargazer Advent Calendar will reaveal one exclusive alien NFT, from December 1 to December 25 to be used in the Games.
+             Mint a daily alien NFT from December 1-23, 2023 to be leveled-up and used in the Hyperverse DeFi game.
               </p>
               <div className="justify-center pb-2">
-<button className="bg-blue-500 hover:bg-blue-700 text-white w-56 h-10 font-semibold  py-2 rounded  justify-center m-auto flex ">
-            Coming December 1, 2023</button>
+              <Link href="/calendar"><button className="bg-blue-500 hover:bg-blue-700 text-white w-56 h-10 font-semibold  py-2 rounded  justify-center m-auto flex ">
+            Mint now</button></Link>
           </div>
             </div>
           </div>

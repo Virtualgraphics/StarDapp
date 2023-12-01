@@ -18,53 +18,79 @@ import { Credits } from '../credits';
 
    <FrontSlider/>
 
-<div className="px-6">
-
-<div className="border-2 border-blue-100/50 bg-gradient-to-r from-black to-indigo-800 py-8 px-4 mt-8 w-1/2 justify-center m-auto grid grid-rows-2 gap-4 rounded-3xl">
-
-<div>
-<h1 className="text-blue-100 text-lg font-Proza text-center font-semibold">YOUR STARDAPP Dashboard</h1>
-</div>
-<div>
-<h1 className="text-white text-lg font-Proza text-center">Connect a wallet to see your assets</h1>
-</div>
-
-</div>
-
-
-   <Hero />
-
-<div className="grid grid-rows gap-4 ">
+   <div className="grid lg:grid-cols-4 sm:grid-cols-1 md:grid-cols-2 gap-4 w-3/4 justify-center m-auto">
 
 <div>
 
 <Image
-              className="flex items-center justify-center mx-auto pt-8"
-              src="/assets/advent_banner.png"
+              className="flex items-center justify-center mx-auto mt-8 rounded-3xl"
+              src="/assets/hyperverse_sirians.jpg"
               alt="Advent Banner"
-              width={1200}
-              height={400}
+              width={1000}
+              height={1000}
             />
 
 </div>
 
-<div className="  w-3/4 justify-center m-auto ">
-<h1 className="text-center text-blue-100 text-xl font-Proza">
-The Stargazer Advent Calendar will reveal one exclusive alien NFT, every day from December 1 to December 25, 2023 to be used as assets in the DeFi and RPG Game.</h1>
+<div>
+
+<Image
+              className="flex items-center justify-center mx-auto mt-8 rounded-3xl"
+              src="/assets/hyperverse_reptilians.jpg"
+              alt="Advent Banner"
+              width={1000}
+              height={1000}
+            />
+
+</div>
+
+
+<div>
+
+<Image
+              className="flex items-center justify-center mx-auto mt-8 rounded-3xl"
+              src="/assets/hyperverse_candor.jpg"
+              alt="Advent Banner"
+              width={1000}
+              height={1000}
+            />
+
+</div>
+
+
+<div>
+
+<Image
+              className="flex items-center justify-center mx-auto mt-8 rounded-3xl"
+              src="/assets/hyperverse_mantid.jpg"
+              alt="Advent Banner"
+              width={1000}
+              height={1000}
+            />
+
+</div></div>
+
+<div className="  w-1/2 justify-center m-auto pt-12">
+<h1 className="text-center text-blue-100 text-2xl font-Proza">
+Blast off into the Hyperverse with the SKY GODZ: Gamefi Advent Calendar and propel your alien through the hyperverse and collect Stardust token rewards as you cross the dimensions.
+</h1>
 
 
 
 <div className=" flex items-center justify-center py-8">
-            <Link href="/nftmint">
-            <button className=" bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-5">
+            <Link href="/calendar">
+            <button className=" bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-6 rounded-xl mt-5">
   Mint now
 </button></Link></div>
 
 </div>
 
-</div>
 
-<hr className="w-2/4  border-yellow-200 justify-center m-auto flex " />
+
+
+   <Hero />
+
+
 
    <Intro />
 
@@ -74,7 +100,6 @@ The Stargazer Advent Calendar will reveal one exclusive alien NFT, every day fro
 
    </div>
 
-</div>
 )
 
 };
