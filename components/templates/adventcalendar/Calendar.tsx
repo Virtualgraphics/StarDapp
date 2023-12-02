@@ -42,10 +42,34 @@ const CALENDAR = () => {
             Blast off into the Hyperverse with the SKY GODZ: Gamefi Advent Calendar and propel your alien through the hyperverse and collect Stardust token rewards as you cross the dimensions.
             </p>
            
-            <p className="text-base text-blue-200 lg:text-lg md:text-lg sm:px-4 py-5 font-Proza">
+            <div className="bg-blue-900/50 rounded-3xl w-3/4 justify-center m-auto flex ">
+            <p className=" text-blue-200 lg:text-lg md:text-base sm:text-sm sm:p-8 md:p-8 lg:px-12 font-Proza text-left">
 
-              Mint a new Alien every day. Daily supply is 99 aliens. Price is 9 Matic and one wallet can mint up to 3 aliens. Level-up wil start on December 8, 2023. See our website for more detail...
-            </p>
+            <ul className="list-disc">
+  <li>Mint a new Alien every day. Collect them all!</li>
+  </ul>
+
+  <ul className="list-disc">
+  <li>99 aliens max. supply for each day.</li>
+  </ul>
+
+  <ul className="list-disc">
+  <li>Cost: 9 Matic.</li>
+  </ul>
+
+  <ul className="list-disc">
+  <li>Max. limit of 3 aliens per wallet.</li>
+  </ul>
+
+  <ul className="list-disc">
+  <li>Level-up wil start on December 8, 2023.</li>
+  </ul>
+
+  <ul className="list-disc">
+  <li>HYPERVERSE game wil start on December 21, 2023.</li>
+  </ul>
+
+            </p></div>
            
           </div>
 
