@@ -62,7 +62,7 @@ const CALENDAR = () => {
   </ul>
 
   <ul className="list-disc">
-  <li>Level-up wil start on December 8, 2023.</li>
+  <li>Level-up wil start on December 12, 2023.</li>
   </ul>
 
   <ul className="list-disc">
