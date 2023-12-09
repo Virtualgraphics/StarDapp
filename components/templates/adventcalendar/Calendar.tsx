@@ -58,11 +58,11 @@ const CALENDAR = () => {
   </ul>
 
   <ul className="list-disc">
-  <li>Max. limit of 3 aliens per wallet.</li>
+  <li>Max. limit of 1 alien per wallet.</li>
   </ul>
 
   <ul className="list-disc">
-  <li>Level-up wil start on December 12, 2023.</li>
+  <li>Level-up wil start on December 19, 2023.</li>
   </ul>
 
   <ul className="list-disc">
@@ -112,7 +112,34 @@ const CALENDAR = () => {
         </div>
       )}
       
-  
+  <div className="grid lg:grid-cols-2 md:grid_cols-1 sm:grid-cols-1 gap-4 max-w-4xl justify-center m-auto">
+
+    <div>
+    <Image
+      className="m-auto h-96 w-96 rounded-3xl"
+      src="/assets/akasha_aliens_animation.gif"
+      alt="Akasha alien"
+      width={750}
+      height={750}
+    />
+
+
+    </div>
+
+    <div>
+
+    <Image
+      className="m-auto h-96 w-96 rounded-3xl"
+      src="/assets/calendar_campaign03.jpg"
+      alt="Akasha overview"
+      width={750}
+      height={750}
+    />
+
+    </div>
+
+
+  </div>
 
       <Stepper/>
 

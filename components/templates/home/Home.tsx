@@ -75,6 +75,35 @@ import { Credits } from '../credits';
 Blast off into the Hyperverse with the SKY GODZ: Gamefi Advent Calendar and propel your alien through the hyperverse and collect Stardust token rewards as you cross the dimensions.
 </h1>
 
+<div className="grid lg:grid-cols-2 md:grid_cols-1 sm:grid-cols-1 gap-4 max-w-4xl justify-center m-auto mt-8">
+
+    <div>
+    <Image
+      className="m-auto h-96 w-96 rounded-3xl"
+      src="/assets/akasha_aliens_animation.gif"
+      alt="Akasha alien"
+      width={750}
+      height={750}
+    />
+
+
+    </div>
+
+    <div>
+
+    <Image
+      className="m-auto h-96 w-96 rounded-3xl"
+      src="/assets/calendar_campaign03.jpg"
+      alt="Akasha overview"
+      width={750}
+      height={750}
+    />
+
+    </div>
+
+
+  </div>
+
 
 
 <div className=" flex items-center justify-center py-8">
