@@ -112,7 +112,7 @@ const CALENDAR = () => {
         </div>
       )}
       
-  <div className="grid lg:grid-cols-2 md:grid_cols-1 sm:grid-cols-1 gap-4 max-w-4xl justify-center m-auto">
+  <div className="grid lg:grid-cols-2 md:grid_cols-1 sm:grid-cols-1 gap-4 max-w-4xl justify-center mt-12 m-auto">
 
     <div>
     <Image
