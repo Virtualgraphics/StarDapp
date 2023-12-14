@@ -66,7 +66,7 @@ const CALENDAR = () => {
   </ul>
 
   <ul className="list-disc">
-  <li>HYPERVERSE game wil start on December 21, 2023.</li>
+  <li>HYPERVERSE game wil start on December 21, 2023 to get HYPER token rewards.</li>
   </ul>
 
             </p></div>
