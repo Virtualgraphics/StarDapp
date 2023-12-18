@@ -62,11 +62,11 @@ const CALENDAR = () => {
   </ul>
 
   <ul className="list-disc">
-  <li>Level-up wil start on December 19, 2023.</li>
+  <li>Level-up wil start on December 21, 2023.</li>
   </ul>
 
   <ul className="list-disc">
-  <li>HYPERVERSE game wil start on December 21, 2023 to get HYPER token rewards.</li>
+  <li>HYPERVERSE game wil start on December 22, 2023 to get HYPER token rewards.</li>
   </ul>
 
             </p></div>
