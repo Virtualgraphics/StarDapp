@@ -62,7 +62,7 @@ const CALENDAR = () => {
   </ul>
 
   <ul className="list-disc">
-  <li>Level-up wil start on December 21, 2023.</li>
+  <li>Akasha airdrop for the first 200 Calendar NFTs on December 22, 2023.</li>
   </ul>
 
   <ul className="list-disc">

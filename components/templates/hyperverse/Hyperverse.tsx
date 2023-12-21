@@ -134,7 +134,7 @@ Blast off into the Hyperverse with the SKY GODZ: Hyperverse Gamefi Experience:
               LEVEL UP TO AN AKASHA ALIEN
               </h5>
               <p className="mb-5 text-gray-300 text-md font-Proza">
-              Level-up your aliens to a beautiful one-of-a-kind Akasha alien ERC-721 (by burning the ERC-1155 to obtain the new NFT) by burning your calendar alien. Only 200 Akasha aliens can be minted starting on December 21, 2023. 
+              All aliens minted will be eligible for the upgrade on a first come, first serve basis. Akasha airdrop for the first 200 Calendar NFTs on December 22, 2023. 
 
               </p>
              
