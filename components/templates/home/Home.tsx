@@ -70,12 +70,12 @@ import { Credits } from '../credits';
 
 </div></div>
 
-<div className="  w-1/2 justify-center m-auto pt-12">
+<div className="  w-full justify-center m-auto pt-12 px-20">
 <h1 className="text-center text-blue-100 text-2xl font-Proza">
 Blast off into the Hyperverse with the SKY GODZ: Gamefi Advent Calendar and propel your alien through the hyperverse and collect HYPER token rewards as you cross the dimensions.
 </h1>
 
-<div className="grid lg:grid-cols-3 md:grid_cols-1 sm:grid-cols-1 gap-4 max-100% justify-center m-auto mt-8">
+<div className="grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 gap-4 max-100% justify-center m-auto mt-8">
 
     <div>
     <Image

@@ -54,7 +54,7 @@ const Hyperverse = () => {
               width={750}
               height={750}
             />
-             <h1 className='text-yellow-100 text-center text-lg font-Proza pt-4'>Level-up Alien NFTs</h1>
+             <h1 className='text-yellow-100 text-center text-lg font-Proza pt-4'>Get Akasha Alien Aidrop</h1>
 
 </div>
 
@@ -118,58 +118,8 @@ Blast off into the Hyperverse with the SKY GODZ: Hyperverse Gamefi Experience:
 
 
 
-          <div className="transition duration-300 transform bg-blue-900/10 rounded-lg shadow-sm hover:-translate-y-1 hover:shadow md:text-center">
-            <div className="relative">
-            <Image
-              className="object-cover w-full h-64 rounded-t lg:h-80 xl:h-96"
-              src="/assets/hyper_akasha.jpg"
-              alt="Akasha"
-              width={1260}
-              height={750}
-            />
-              <div className="absolute inset-0 bg-blue-900 bg-opacity-0" />
-            </div>
-            <div className="px-6 py-8 border border-t-0 rounded-b-lg sm:px-8">
-              <h5 className="text-yellow-100 mb-2 text-xl font-bold leading-none sm:text-2xl">
-              LEVEL UP TO AN AKASHA ALIEN
-              </h5>
-              <p className="mb-5 text-gray-300 text-md font-Proza">
-              All aliens minted will be eligible for the upgrade on a first come, first serve basis. Akasha airdrop for the first 200 Calendar NFTs on December 22, 2023. 
-
-              </p>
-             
-<button className="bg-blue-500 hover:bg-blue-700 text-white w-40 h-10 font-bold  px-4 rounded mt-1">
-            Level-up now</button>
-            
-            </div>
-          </div>
 
 
-          <div className="transition duration-300 transform bg-blue-900/10 rounded-lg shadow-sm hover:-translate-y-1 hover:shadow md:text-center">
-            <div className="relative">
-            <Image
-              className="object-cover w-full h-64 rounded-t lg:h-80 xl:h-96"
-              src="/assets/hyper_shop.jpg"
-              alt="Shop"
-              width={1260}
-              height={750}
-            />
-              <div className="absolute inset-0 bg-blue-900 bg-opacity-0" />
-            </div>
-            <div className="px-6 py-8 border border-t-0 rounded-b-lg sm:px-8">
-              <h5 className="text-yellow-100 mb-2 text-xl font-bold leading-none sm:text-2xl">
-              SHOP
-              </h5>
-              <p className="mb-5 text-gray-300 text-md font-Proza">
-              Get cosmic energy sources and galactic staffs in the shop. The first energy source is free but all the others need to be bought with HYPER Tokens which you can only obtain by playing the HYPERVERSE game. Check stats for accumulated rewards.
-
-              </p>
-             
-<button className="bg-blue-500 hover:bg-blue-700 text-white w-40 h-10 font-bold  px-4 rounded mt-1">
-            Shop now</button>
-            
-            </div>
-          </div>
 
 
           <div className="transition duration-300 transform bg-blue-900/10 rounded-lg shadow-sm hover:-translate-y-1 hover:shadow md:text-center">
@@ -188,12 +138,82 @@ Blast off into the Hyperverse with the SKY GODZ: Hyperverse Gamefi Experience:
              HYPERVERSE GAME
               </h5>
               <p className="mb-5 text-gray-300 text-md font-Proza">
-              Enter the Hyperverse with your Akasha alien and travel the dimensions and collect HYPER token rewards. Login with your Akasha alien and power-up your Akasha alien and get HYPER token rewards depending on the power of your energy source. 
+              Enter the Hyperverse with your Akasha alien and travel the dimensions and collect HYPER token rewards. Login with your Akasha alien and power-up your Akasha alien and get HYPER token rewards. 
 
               </p>
              
 <button className="bg-blue-500 hover:bg-blue-700 text-white w-40 h-10 font-bold  px-4 rounded mt-1">
             Play now</button>
+            
+            
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <div className="transition duration-300 transform bg-blue-900/10 rounded-lg shadow-sm hover:-translate-y-1 hover:shadow md:text-center">
+            <div className="relative">
+            <Image
+              className="object-cover w-full h-64 rounded-t lg:h-80 xl:h-96"
+              src="/assets/hyper_shop.jpg"
+              alt="Shop"
+              width={1260}
+              height={750}
+            />
+              <div className="absolute inset-0 bg-blue-900 bg-opacity-0" />
+            </div>
+            <div className="px-6 py-8 border border-t-0 rounded-b-lg sm:px-8">
+              <h5 className="text-yellow-100 mb-2 text-xl font-bold leading-none sm:text-2xl">
+              SHOP
+              </h5>
+              <p className="mb-5 text-gray-300 text-md font-Proza">
+              Get cosmic energy sources and galactic staffs in the shop. The first energy source is free but all the others need to be bought with HYPER Tokens which you can only obtain by playing the HYPERVERSE game. 
+
+              </p>
+              <Link href="/hypershop">        
+<button className="bg-blue-500 hover:bg-blue-700 text-white w-40 h-10 font-bold  px-4 rounded mt-1">
+            Shop now</button></Link>
+            
+            </div>
+          </div>
+
+
+          <div className="transition duration-300 transform bg-blue-900/10 rounded-lg shadow-sm hover:-translate-y-1 hover:shadow md:text-center">
+            <div className="relative">
+            <Image
+              className="object-cover w-full h-64 rounded-t lg:h-80 xl:h-96"
+              src="/assets/hyper_sleep_front.jpg"
+              alt="Stargazer Game"
+              width={1260}
+              height={750}
+            />
+              <div className="absolute inset-0 bg-blue-900 bg-opacity-0" />
+            </div>
+            <div className="px-6 py-8 border border-t-0 rounded-b-lg sm:px-8">
+              <h5 className="text-yellow-100 mb-2 text-xl font-bold leading-none sm:text-2xl">
+             HYPERSLEEP GAME
+              </h5>
+              <p className="mb-5 text-gray-300 text-md font-Proza">
+              Send your Akasha Alien on extended journey to the core of the Hyperverse and get additional HYPER Token rewards. Starting on December 30, 2023 only here. You need to be a holder of at least 1 Akasha alien. Stay tuned...
+
+              </p>
+             
+<button className="bg-blue-500 hover:bg-blue-700 text-white w-40 h-10 font-bold  px-4 rounded mt-1">
+            Coming soon...</button>
             
             </div>
           </div>
