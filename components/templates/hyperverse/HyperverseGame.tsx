@@ -124,10 +124,10 @@ const HyperverseGame = () => {
 
 
 
-          <div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-14 mb-12">
+          <div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-10 mb-12">
 <div className="p-10 bg-gradient-to-t from-blue-800/40 to-blue-900/20  rounded-3xl shadow-3xl">
               <h1 className="text-2xl text-yellow-100 font-Porza">Your Akasha Aliens</h1>
-              <div className='grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4'>
+              <div className='grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-2'>
                 <div className='content-box'>
                   {ownedAkasha?.map((nft) => (
                     <div className="py-8 " key={nft.metadata.id}>
@@ -175,7 +175,7 @@ const HyperverseGame = () => {
                   ))}
             </div>
 
-            <p className="text-yellow-200 font-Jost pt-8 ">NOTE: Claim your $HYPER before unboosting any cosmic energy!</p>
+            <p className="text-yellow-200 font-Jost pt-8 ">NOTE: Claim your HYPER tokens before unboosting any cosmic energy!</p>
           </div>
 
           

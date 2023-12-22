@@ -35,7 +35,7 @@ export function HyperInventory({ nft }: Props) {
     if(nft?.length === 0) {
         return (
             <div className='w-max'>
-                <p className='text-white text-lg'>You currently have no cosmic energy in your inventory.</p>
+                <p className='text-white text-lg py-4'>You currently have no cosmic energy in your inventory.</p>
                 <Link
                     href="/hypershop"
                 >

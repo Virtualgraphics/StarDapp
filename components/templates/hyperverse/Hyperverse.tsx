@@ -29,48 +29,16 @@ const Hyperverse = () => {
            
           </div>
 
-<div className='flex items-center justify-center mt-8 m-auto py-12 bg-gradient-to-t from-blue-800/40 to-blue-900/20 rounded-3xl'>
-
-<div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20'>
-
-    <div>
-<Image
-              className="flex items-center justify-center h-64 w-64 rounded-full border-4 border-blue-100"
-              src="/assets/hyperverse_aliens_promo.gif"
-              alt="Alien Calendar"
-              width={750}
-              height={750}
-            />
-            <h1 className='text-yellow-100 text-center text-lg font-Proza pt-4'>Claim daily Alien NFTs</h1>
-
-</div>
-
+<div className='flex items-center justify-center mt-8 m-auto px-12 py-6 bg-gradient-to-t from-blue-800/40 to-blue-900/20 rounded-3xl'>
 
 <div>
-<Image
-              className="flex items-center justify-center h-64 w-64 rounded-full border-4 border-blue-100"
-              src="/assets/akasha_aliens_animation.gif"
-              alt="Alien Calendar"
-              width={750}
-              height={750}
-            />
-             <h1 className='text-yellow-100 text-center text-lg font-Proza pt-4'>Get Akasha Alien Aidrop</h1>
-
+<h1 className='text-center text-yellow-100 text-xl font-Proza font-semibold'>HYPERVERSE GAME QUICK START GUIDE:</h1>
+<p className='text-white text-sm font-Proza py-2'> 1. Mint one or several aliens from the Advent Calendar and receive an Akasha alien airdrop for each alien minted. Max. supply 200, airdropped at a first come, first serve basis.</p>
+<p className='text-white text-sm font-Proza py-2'> 2. Log in to the Hyperverse Shop and claim your first free Cosmic Energy NFT. You need an Akahsa alien to access the shop.</p>
+<p className='text-white text-sm font-Proza py-2'> 3. Log in to the Hyperverse Game and boost your alien with the cosmic energy to get HYPER token rewards. You need an Akahsa alien to access the game.</p>
+<p className='text-white text-sm font-Proza py-2'> 4. Once you accumulated enough token rewards, after day 1, you can purchase more cosmic energy to get additional rewards.</p>
 </div>
 
-
-<div>
-<Image
-              className="flex items-center justify-center  h-64 w-64 rounded-full border-4 border-blue-100"
-              src="/assets/hyper_token.gif"
-              alt="Alien Calendar"
-              width={750}
-              height={750}
-            />
-             <h1 className='text-yellow-100 text-center text-lg font-Proza pt-4'>Get HYPER token rewards</h1>
-
-</div>
-</div>
  </div>
 
 
@@ -106,7 +74,7 @@ Blast off into the Hyperverse with the SKY GODZ: Hyperverse Gamefi Experience:
               HYPERVERSE ADVENT CALENDAR
               </h5>
               <p className="mb-5 text-gray-300 text-md font-Proza">
-              The Advent Calendar features 25 amazing different alien races which can be minted daily from December 1 to December 25, 2023. Only 99 aliens can be claimed on a daily basis and up to 1 aliens can be claimed per wallet. 
+              The Advent Calendar features 25 amazing different alien races which can be minted daily from December 1 to December 25, 2023. Get an Akasha alien airdrop for each Calendar alien to access the game.
 
               </p>
           <Link href="/calendar">   
@@ -229,9 +197,55 @@ Blast off into the Hyperverse with the SKY GODZ: Hyperverse Gamefi Experience:
 
 </div>
 
-<div className="flex justify-center m-auto">
 
-<h1 className='text-center text-yellow-100 font-Pro text-3xl pb-8'>Game and Mint tutorial coming soon...</h1>
+
+<div className='flex items-center justify-center mt-8 m-auto py-12 bg-gradient-to-t from-blue-800/40 to-blue-900/20 rounded-3xl'>
+
+<div className='grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-12'>
+
+
+
+
+<div className='px-8'>
+
+             <h1 className='text-yellow-100 text-lg font-Proza py-4'>Hyperverse Contract Addresses:</h1>
+<p className='text-white text-sm font-Proza py-2'> Calendar: 0xE43E3d5Cbc74e6595a98db1eecfc64B90b2f2Ced</p>
+<p className='text-white text-sm font-Proza py-2'> Akasha Aliens: 0x015e2f19e492051cD66Be5EdFADF05f8813B8B1A</p>
+<p className='text-white text-sm font-Proza py-2'> Cosmic Energy: 0x1d012331e07179c1E49CcD877c5bE3ca23F1654e</p>
+<p className='text-white text-sm font-Proza py-2'> HYPER Token: 0x43f9A9BE99fC67592069Bc33Bd9597dbc2E7443</p>
+
+
+</div>
+
+
+<div className='flex items-center justify-center m-auto'>
+<Image
+              className=" h-48 w-48 rounded-full border-4 border-blue-100 "
+              src="/assets/hyper_token.gif"
+              alt="Alien Calendar"
+              width={750}
+              height={750}
+            />
+             
+
+</div>
+</div>
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div className="flex justify-center m-auto mt-8">
+
+<h1 className='text-center text-yellow-100 font-Pro text-2xl pb-8'>Game and Mint tutorials coming soon...</h1>
 </div>
 
  </div>

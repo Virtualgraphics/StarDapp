@@ -53,7 +53,7 @@ export const HyperBoosted = (props: EquippedProps) => {
                            
                             contractAddress={STAKING_ADDRESS}
                             action={(contract) => contract.call("claimRewards", [props.tokenId])}
-                        >Claim $HYPER</Web3Button>
+                        >Claim HYPER</Web3Button>
                     </div>
                 </div>
             )}
