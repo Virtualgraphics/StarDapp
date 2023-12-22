@@ -109,7 +109,7 @@ Blast off into the Hyperverse with the SKY GODZ: Hyperverse Gamefi Experience:
               Enter the Hyperverse with your Akasha alien and travel the dimensions and collect HYPER token rewards. Login with your Akasha alien and power-up your Akasha alien and get HYPER token rewards. 
 
               </p>
-              <Link href="/calendar">   
+              <Link href="/hyperversegame">   
 <button className="bg-blue-500 hover:bg-blue-700 text-white w-40 h-10 font-bold  px-4 rounded mt-1">
             Play now</button></Link>
             
