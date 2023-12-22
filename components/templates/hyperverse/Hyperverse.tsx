@@ -29,14 +29,14 @@ const Hyperverse = () => {
            
           </div>
 
-<div className='flex items-center justify-center mt-8 m-auto px-12 py-6 bg-gradient-to-t from-blue-800/40 to-blue-900/20 rounded-3xl'>
+<div className='flex items-center justify-center mt-8 m-auto px-12 pt-6 py-6 bg-gradient-to-t from-blue-800/40 to-blue-900/20 rounded-3xl'>
 
 <div>
-<h1 className='text-center text-yellow-100 text-xl font-Proza font-semibold'>HYPERVERSE GAME QUICK START GUIDE:</h1>
+<h1 className='text-center text-yellow-100 text-xl font-Proza font-semibold pb-4'>HYPERVERSE GAME QUICK START GUIDE:</h1>
 <p className='text-white text-sm font-Proza py-2'> 1. Mint one or several aliens from the Advent Calendar and receive an Akasha alien airdrop for each alien minted. Max. supply 200, airdropped at a first come, first serve basis.</p>
 <p className='text-white text-sm font-Proza py-2'> 2. Log in to the Hyperverse Shop and claim your first free Cosmic Energy NFT. You need an Akahsa alien to access the shop.</p>
 <p className='text-white text-sm font-Proza py-2'> 3. Log in to the Hyperverse Game and boost your alien with the cosmic energy to get HYPER token rewards. You need an Akahsa alien to access the game.</p>
-<p className='text-white text-sm font-Proza py-2'> 4. Once you accumulated enough token rewards, after day 1, you can purchase more cosmic energy to get additional rewards.</p>
+<p className='text-white text-sm font-Proza py-2'> 4. After the first day you should have accumulated enough token rewards to purchase more cosmic energy and get additional rewards.</p>
 </div>
 
  </div>
@@ -109,9 +109,9 @@ Blast off into the Hyperverse with the SKY GODZ: Hyperverse Gamefi Experience:
               Enter the Hyperverse with your Akasha alien and travel the dimensions and collect HYPER token rewards. Login with your Akasha alien and power-up your Akasha alien and get HYPER token rewards. 
 
               </p>
-             
+              <Link href="/calendar">   
 <button className="bg-blue-500 hover:bg-blue-700 text-white w-40 h-10 font-bold  px-4 rounded mt-1">
-            Play now</button>
+            Play now</button></Link>
             
             
             </div>

@@ -34,7 +34,7 @@ const HyperverseGame = () => {
         <div className="container-lg py-24 px-8">
           <div className="flex-col h-full mx-auto my-auto justify-center">
             <h1 className='text-3xl text-yellow-100 pt-16 text-center font-semibold font-Proza'>WELCOME TO THE HYPERVERSE</h1>
-            <p className='text-xl text-white pt-4 text-center font-Jost'>To participate in the HYPERVERSE game, connect your wallet and claim an Akaha NFT.</p>
+            <p className='text-lg text-white pt-4 text-center font-Jost'>To participate in the HYPERVERSE game, connect your wallet and claim an Akasha NFT.</p>
             <div className="m-auto w-96 py-12">
               <Image
               className="m-auto rounded-full"

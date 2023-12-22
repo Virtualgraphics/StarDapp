@@ -44,7 +44,7 @@ const { contract } = useContract(ENERGY_ADDRESS);
           <div className="container-lg py-24 px-8">
             <div className="flex-col h-full mx-auto my-auto justify-center">
               <h1 className='text-3xl text-yellow-100 pt-16 text-center font-semibold font-Proza'>WELCOME TO THE HYPERVERSE SHOP</h1>
-              <p className='text-xl text-white pt-4 text-center font-Jost'>To access the HYPERVERSE Shop, connect your wallet and login with your Akaha NFT.</p>
+              <p className='text-lg text-white pt-4 text-center font-Jost'>To access the HYPERVERSE Shop, connect your wallet and login with your Akasha NFT.</p>
               <div className="m-auto w-96 py-12">
                 <Image
                 className="m-auto rounded-full"
@@ -78,7 +78,7 @@ const { contract } = useContract(ENERGY_ADDRESS);
         return (
   <div className="w-full justify-center mx-auto pt-24 px-8">
     <h1 className="text-yellow-100 text-2xl font-semibold font-Jost text-center">To access the HYPERVERSE Shop you need to own an Akasha Alien!</h1>
-    <p className="text-white text-md font-Jost text-center py-4 ">You currently do not own an Akasha Alien. Head to the Advent Calendar page, claim an alien and receive an Akasha alien airdrop to access the shop.</p>
+    <p className="text-white text-lg font-Jost text-center py-4 ">You currently do not own an Akasha Alien. Head to the Advent Calendar page, claim an alien and receive an Akasha alien airdrop to access the shop.</p>
   <div className=" items-center justify-center m-auto py-4">
   
   <div className="justify-center m-auto w-96 py-16 h-full">
