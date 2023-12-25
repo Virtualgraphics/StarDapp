@@ -6,7 +6,7 @@ import Image from 'next/image'
 const fadeImages = [
 
   {
-    url: 'https://www.skygodz.com/wp-content/uploads/2023/12/slide_06.jpg',
+    url: 'https://www.skygodz.com/wp-content/uploads/2023/12/slide_08.jpg',
     caption: ''
   },
   {
