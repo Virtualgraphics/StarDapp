@@ -168,9 +168,9 @@ const { contract } = useContract(ENERGY_ADDRESS);
 <div className='grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-6'>
 
 <div className="">
-<h1 className='text-left text-yellow-100 font-Proza text-xl'>The Cosmic Staff of the Akasha</h1>
-<p className='text-white text-base font-Proza py-4'>Use the powerful staff of the Akasha to bend time and space and travel the dimensions of the Hyperverse and collect HYPER tokens in the process.</p>
-<p className='text-blue-200 text-md font-Proza py-4'>Coming soon...</p>
+<h1 className='text-left text-yellow-100 font-Proza text-xl'>Play the HYPERSLEEP Game</h1>
+<p className='text-white text-base font-Proza py-4'>Send your Akasha Alien on extended journey to the core of the Hyperverse and get additional HYPER Token rewards.</p>
+<p className='text-blue-200 text-md font-Proza py-4'>Coming on December 31, 2023...</p>
 </div>
 
 
@@ -179,10 +179,10 @@ const { contract } = useContract(ENERGY_ADDRESS);
 
 <Image
       className=" rounded-3xl shadow-md"
-      src="/assets/akasha_staff.gif"
+      src="/assets/hypersleep.jpg"
       alt="Akasha Staff"
-      width={500}
-      height={500}
+      width={800}
+      height={800}
     />
 
 </div>
