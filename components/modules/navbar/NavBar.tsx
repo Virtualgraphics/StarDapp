@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Image from 'next/image'
 import { ConnectWallet, useAddress } from "@thirdweb-dev/react";
 import Link from 'next/link'
+import styles from '/styles/Home.module.css'
 
 
 function NavBar() {
@@ -68,7 +69,10 @@ function NavBar() {
          </Link>
        </div>
        <div className="py-2 mr-12 ">
-       <ConnectWallet />
+       <ConnectWallet 
+       btnTitle='Login'
+       className={styles.connectButton}
+       />
        </div>
      </div>
    </nav>

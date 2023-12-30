@@ -2,6 +2,7 @@ import { MediaRenderer, Web3Button, useAddress, useContract } from '@thirdweb-de
 import { NFT } from '@thirdweb-dev/sdk';
 import { STAKING_ADDRESS, ENERGY_ADDRESS, REWARDS_ADDRESS, AKASHA_ADDRESS} from "../../../constants/addresses";
 import Link from 'next/link';
+import styles from '/styles/Home.module.css'
 
 
 type Props = {
@@ -59,7 +60,7 @@ export function HyperInventory({ nft }: Props) {
                     />
                     <p className='text-white text-xl py-4 text-center'>{nft.metadata.name}</p>
                     <Web3Button
-                     
+                      className={styles.boostButton}
                        
                         contractAddress={STAKING_ADDRESS}
                         action={() => stakeNFT(nft.metadata.id)}

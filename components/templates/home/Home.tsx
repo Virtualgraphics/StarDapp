@@ -24,7 +24,7 @@ import { Credits } from '../credits';
 
 <Image
               className="flex items-center justify-center mx-auto mt-8 rounded-3xl"
-              src="/assets/hyperverse_sirians.jpg"
+              src="/assets/akasha_promo03.png"
               alt="Advent Banner"
               width={1000}
               height={1000}
@@ -36,20 +36,7 @@ import { Credits } from '../credits';
 
 <Image
               className="flex items-center justify-center mx-auto mt-8 rounded-3xl"
-              src="/assets/hyperverse_reptilians.jpg"
-              alt="Advent Banner"
-              width={1000}
-              height={1000}
-            />
-
-</div>
-
-
-<div>
-
-<Image
-              className="flex items-center justify-center mx-auto mt-8 rounded-3xl"
-              src="/assets/hyperverse_candor.jpg"
+              src="/assets/akasha_promo04.png"
               alt="Advent Banner"
               width={1000}
               height={1000}
@@ -62,7 +49,20 @@ import { Credits } from '../credits';
 
 <Image
               className="flex items-center justify-center mx-auto mt-8 rounded-3xl"
-              src="/assets/hyperverse_mantid.jpg"
+              src="/assets/akasha_promo01.png"
+              alt="Advent Banner"
+              width={1000}
+              height={1000}
+            />
+
+</div>
+
+
+<div>
+
+<Image
+              className="flex items-center justify-center mx-auto mt-8 rounded-3xl"
+              src="/assets/akasha_promo02.png"
               alt="Advent Banner"
               width={1000}
               height={1000}
@@ -72,7 +72,7 @@ import { Credits } from '../credits';
 
 <div className="  w-3/4 justify-center m-auto pt-12 px-20">
 <h1 className="text-center text-blue-100 text-2xl font-Proza">
-Blast off into the Hyperverse with the SKY GODZ: Gamefi Advent Calendar and propel your alien through the hyperverse and collect HYPER token rewards as you cross the dimensions.
+Blast off into the Hyperverse with the SKY GODZ: HYPERVERSE game and collect HYPER token rewards as you travel the dimensions.
 </h1>
 
 
@@ -82,7 +82,7 @@ Blast off into the Hyperverse with the SKY GODZ: Gamefi Advent Calendar and prop
 <div className=" flex items-center justify-center py-8">
             <Link href="/hyperverse">
             <button className=" bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-6 rounded-xl mt-5">
-  Find out more
+  PLAY NOW
 </button></Link></div>
 
 </div>

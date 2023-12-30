@@ -9,6 +9,7 @@ import {
 import { NFT } from "@thirdweb-dev/sdk";
 import { ENERGY_ADDRESS } from "../../../constants/addresses";
 import { ethers } from "ethers";
+import styles from '/styles/Home.module.css'
 
 type Props = {
     nft: NFT;
@@ -36,16 +37,16 @@ function EnergyItems({ nft }: Props) {
             /></div>
             <div className=" text-yellow-100 text-2xl text-bold  text-center  pt-4 ">{nft.metadata.name}</div>
             {!isLoading && data ? (
-                <div className="text-white text-center py-2">Cost: {ethers.utils.formatEther(data?.price)}{" " + data?.currencyMetadata.symbol}</div>
+                <div className="text-white text-center pt-2">Cost: {ethers.utils.formatEther(data?.price)}{" " + data?.currencyMetadata.symbol}</div>
                 
             ) :(
                 <div className='text-xl text-white text-center'>Loading...</div>
             )}
 
-<div className='py-4 flex items-center justify-center m-auto'>
+<div className='pb-4 flex items-center justify-center m-auto'>
             <Web3Button 
-            
-        
+              className={styles.claimButton}
+              onSuccess={() => alert("Claimed!")}
                 contractAddress={ENERGY_ADDRESS}
                 action={(contract) => contract.erc1155.claim(nft.metadata.id, 1)}
             >Buy</Web3Button>

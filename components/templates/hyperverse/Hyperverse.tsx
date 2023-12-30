@@ -1,6 +1,7 @@
 import Link from 'next/link'
 
 import Image from 'next/image'
+import styles from '/styles/Home.module.css'
 
 const Hyperverse = () => {
  
@@ -43,11 +44,7 @@ const Hyperverse = () => {
 
 
 
-<div className='flex items-center justify-center m-auto max-w-4xl'>
-<h1 className='text-yellow-100 text-2xl font-semibold mt-10 text-center'>
-Blast off into the Hyperverse with the SKY GODZ: Hyperverse Gamefi Experience:
-</h1>
-</div>
+
 
 <div className="flex justify-center sm:pb-4">
 

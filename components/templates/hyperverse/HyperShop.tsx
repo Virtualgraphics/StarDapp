@@ -22,6 +22,7 @@ import {
 } from "@thirdweb-dev/react";
 import Link from 'next/link';
 import Spinner from "../../layouts/Spinner";
+import styles from '/styles/Home.module.css'
 
 
 const HyperShop = () => {
@@ -56,7 +57,13 @@ const { contract } = useContract(ENERGY_ADDRESS);
                 </div>
           
               <div className='w-60 flex items-center justify-center m-auto pb-12'>
-              <ConnectWallet /></div>
+              <ConnectWallet 
+       btnTitle='Login'
+       className={styles.connectButton}
+       />
+              
+              
+              </div>
             </div>
           </div>
         );

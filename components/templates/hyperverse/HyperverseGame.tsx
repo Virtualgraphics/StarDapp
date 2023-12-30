@@ -8,6 +8,7 @@ import Image from 'next/image'
 import Spinner from "../../layouts/Spinner";
 import { HyperBoosted } from "./HyperBoosted";
 import { HyperInventory } from "./HyperInventory";
+import styles from '/styles/Home.module.css'
 
 const HyperverseGame = () => {
 
@@ -46,7 +47,13 @@ const HyperverseGame = () => {
               </div>
         
             <div className='w-60 flex items-center justify-center m-auto pb-12'>
-            <ConnectWallet /></div>
+            <ConnectWallet 
+       btnTitle='Login'
+       className={styles.connectButton}
+       />
+            
+            
+            </div>
           </div>
         </div>
       );

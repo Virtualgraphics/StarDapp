@@ -1,6 +1,7 @@
 import { MediaRenderer, Web3Button, useAddress, useContract, useContractRead, useNFT } from "@thirdweb-dev/react";
 import { STAKING_ADDRESS, ENERGY_ADDRESS, REWARDS_ADDRESS, AKASHA_ADDRESS} from "../../../constants/addresses";
 import { ethers } from "ethers";
+import styles from '/styles/Home.module.css'
 
 
 interface EquippedProps {
@@ -38,9 +39,7 @@ export const HyperBoosted = (props: EquippedProps) => {
                             <p className='text-xl text-bold text-yellow-100 py-2'>{nft.metadata.name}</p>
                             <p className=" text-base text-white py-2">Boosted: {ethers.utils.formatUnits(claimableRewards[0], 0)}</p>
                             <Web3Button
-                           
-                
-                               
+                           className={styles.boostButton}
                                 contractAddress={STAKING_ADDRESS}
                                 action={(contract) => contract.call("withdraw", [props.tokenId, 1])}
                             >Unboost</Web3Button>
@@ -50,7 +49,7 @@ export const HyperBoosted = (props: EquippedProps) => {
                         <p className="text-lg text-yellow-100 py-2">Claimable HYPER tokens:</p>
                         <p className="text-base text-white py-2">{ethers.utils.formatUnits(claimableRewards[1], 18)}</p>
                         <Web3Button
-                           
+                            className={styles.claimButton}
                             contractAddress={STAKING_ADDRESS}
                             action={(contract) => contract.call("claimRewards", [props.tokenId])}
                         >Claim HYPER</Web3Button>
