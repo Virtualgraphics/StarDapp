@@ -34,10 +34,10 @@ const Hyperverse = () => {
 
 <div>
 <h1 className='text-center text-yellow-100 text-xl font-Proza font-semibold pb-4'>HYPERVERSE GAME QUICK START GUIDE:</h1>
-<p className='text-white text-sm font-Proza py-2'> 1. Mint one or several aliens from the Advent Calendar and receive an Akasha alien airdrop for each alien minted. Max. supply 200, airdropped at a first come, first serve basis.</p>
+<p className='text-white text-sm font-Proza py-2'> 1. Mint one of beautiful and unique 200 Akasha alien NFTs to access the HYPERVERSE games and get HYPER tokens rewards.</p>
 <p className='text-white text-sm font-Proza py-2'> 2. Log in to the Hyperverse Shop and claim your first free Cosmic Energy NFT. You need an Akahsa alien to access the shop.</p>
-<p className='text-white text-sm font-Proza py-2'> 3. Log in to the Hyperverse Game and boost your alien with the cosmic energy to get HYPER token rewards. You need an Akahsa alien to access the game.</p>
-<p className='text-white text-sm font-Proza py-2'> 4. After the first day you should have accumulated enough token rewards to purchase more cosmic energy and get additional rewards.</p>
+<p className='text-white text-sm font-Proza py-2'> 3. Access the Hyperverse Game and boost your alien with the cosmic energy to get HYPER token rewards. You need an Akahsa alien to access the game.</p>
+<p className='text-white text-sm font-Proza py-2'> 4. Initialize the Hypersleep Game and stake your Akasha alien to get HYPER token rewards. You need an Akahsa alien to access the game.</p>
 </div>
 
  </div>
@@ -59,7 +59,7 @@ const Hyperverse = () => {
             <div className="relative">
             <Image
               className="object-cover w-full h-64 rounded-t lg:h-80 xl:h-96"
-              src="/assets/hyper_calendar.jpg"
+              src="/assets/hyper_akasha02.jpg"
               alt="Calendar"
               width={1260}
               height={750}
@@ -68,13 +68,13 @@ const Hyperverse = () => {
             </div>
             <div className="px-6 py-8 border border-t-0 rounded-b-lg sm:px-8">
               <h5 className="text-yellow-100 mb-2 text-xl font-bold leading-none sm:text-2xl">
-              HYPERVERSE ADVENT CALENDAR
+              AKASHA ALIEN
               </h5>
               <p className="mb-5 text-gray-300 text-md font-Proza">
-              The Advent Calendar features 25 amazing different alien races which can be minted daily from December 1 to December 25, 2023. Get an Akasha alien airdrop for each Calendar alien to access the game.
+              Mint one of 200 beautiful and unique Akasha alien NFTs to access the HYPERVERSE games and get HYPER tokens rewards which you can use to claim to STARDUST airdrop.
 
               </p>
-          <Link href="/calendar">   
+          <Link href="/nftmint">   
 <button className="bg-blue-500 hover:bg-blue-700 text-white w-40 h-10 font-bold  px-4 rounded mt-1">
             Mint now</button></Link>  
             
@@ -103,7 +103,7 @@ const Hyperverse = () => {
              HYPERVERSE GAME
               </h5>
               <p className="mb-5 text-gray-300 text-md font-Proza">
-              Enter the Hyperverse with your Akasha alien and travel the dimensions and collect HYPER token rewards. Login with your Akasha alien and power-up your Akasha alien and get HYPER token rewards. 
+              Enter the Hyperverse with your Akasha alien and travel the dimensions and collect HYPER token rewards. Login with your Akasha alien and get HYPER token rewards. 
 
               </p>
               <Link href="/hyperversegame">   
@@ -146,7 +146,7 @@ const Hyperverse = () => {
               SHOP
               </h5>
               <p className="mb-5 text-gray-300 text-md font-Proza">
-              Get cosmic energy sources and galactic staffs in the shop. The first energy source is free but all the others need to be bought with HYPER Tokens which you can only obtain by playing the HYPERVERSE game. 
+              Get cosmic energy sources in the shop. The first energy source is free but the others need to be bought with HYPER Tokens which you can only get by playing the HYPERVERSE game. 
 
               </p>
               <Link href="/hypershop">        
@@ -173,12 +173,12 @@ const Hyperverse = () => {
              HYPERSLEEP GAME
               </h5>
               <p className="mb-5 text-gray-300 text-md font-Proza">
-              Send your Akasha Alien on extended journey to the core of the Hyperverse and get additional HYPER Token rewards. Starting on December 30, 2023 only here. You need to be a holder of at least 1 Akasha alien. Stay tuned...
+              Send your Akasha Alien on extended journey to the core of the Hyperverse and get additional HYPER Token rewards. You need to be a holder of at least 1 Akasha alien. You can mint more aliens on the NFT page.
 
               </p>
-             
+              <Link href="/hypersleep"> 
 <button className="bg-blue-500 hover:bg-blue-700 text-white w-40 h-10 font-bold  px-4 rounded mt-1">
-            Coming soon...</button>
+            Play now</button></Link>
             
             </div>
           </div>

@@ -18,7 +18,7 @@ import { Credits } from '../credits';
 
    <FrontSlider/>
 
-   <div className="grid lg:grid-cols-4 sm:grid-cols-1 md:grid-cols-2 gap-4 w-3/4 justify-center m-auto">
+   <div className="grid lg:grid-cols-4 sm:grid-cols-1 md:grid-cols-2 gap-4 w-3/4 justify-center m-auto shadow-2xl">
 
 <div>
 

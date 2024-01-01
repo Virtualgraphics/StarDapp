@@ -110,7 +110,7 @@ const Hypersleep: NextPage = () => {
 
 
 
-<div className=" rounded-3xl h-full bg-gradient-to-t from-blue-800/40 to-blue-900/20  shadow-3xl p-8 mb-8">
+<div className=" rounded-3xl h-full bg-gradient-to-t from-blue-800/40 to-blue-900/20  shadow-2xl p-8 mb-8">
 
 
 
@@ -185,7 +185,9 @@ const Hypersleep: NextPage = () => {
           </Web3Button>
           </div>
 
-          <hr className="max-w-screen justify-center  m-auto border-yellow-200 py-4" />
+          <p className="text-blue-100 text-center text-sm">Refresh the page after staking/unstaking to see current rewards.</p>
+
+          <hr className="max-w-screen justify-center  m-auto border-yellow-200 my-8" />
 
           <h2 className="text-white text-lg font-medium font-Proza pb-8 text-center">My Akasha NFTs</h2>
 
@@ -205,7 +207,7 @@ const Hypersleep: NextPage = () => {
               <div className="justify-center" key={nft.metadata.id.toString()}>
                 <ThirdwebNftMedia
                   metadata={nft.metadata}
-                  className=" border px-4 bg-gradient-to-b from-blue-800 to-blue-950/70  rounded-2xl shadow-3xl"
+                  className=" border-cyan-200/40 border px-4 bg-gradient-to-b from-blue-900 to-blue-950/50  rounded-2xl shadow-2xl"
                 />
 
                 <div className="w-full text-white justify-center mx-auto text-center">

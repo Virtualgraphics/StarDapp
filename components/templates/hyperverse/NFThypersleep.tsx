@@ -37,6 +37,8 @@ import {
             <h3 className="py-6">{nft.metadata.name}</h3>
             <div className="pb-6">
             <Web3Button
+
+              className={styles.boostButton}
               action={(contract) => contract?.call("withdraw", [[nft.metadata.id]])}
               contractAddress={stakingContractAddress}
             >

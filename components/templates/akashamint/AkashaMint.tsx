@@ -56,7 +56,7 @@ const Home: NextPage = () => {
     isLoading: isTotalClaimSupplyLoading,
   } = useTotalCirculatingSupply(contract);
 
-  
+ 
 
   const [claimQuantity, setClaimQuantity] = useState(1);
   const increment = () => {
@@ -73,7 +73,7 @@ const Home: NextPage = () => {
   return (
 
 
-    <div className="max-w-4xl justify-center flex p-8 m-auto my-12 bg-blue bg-gradient-to-t from-blue-800/40 to-blue-900/20 rounded-3xl">
+    <div className="max-w-4xl justify-center flex p-8 m-auto my-4 bg-blue bg-gradient-to-t from-blue-800/40 to-blue-900/20 rounded-3xl shadow-2xl">
       
     
         {!isContractMetadataLoading && (
@@ -86,25 +86,27 @@ const Home: NextPage = () => {
               className="rounded-2xl shadow-2xl"
                 src={contractMetadata?.image}
               />
+              <p className="text-white font-thin font-Proza text-sm text-left px-8 pt-4">Max. cLaimable per wallet: 2 NFTs</p>
+              <p className="text-white font-thin font-Proza text-sm text-left px-8 pt-4">Price: 25 MATIC - Polygon</p>
             </div>
 
 
 
             <div className="w-full">
-              <h1 className="text-yellow-200 font-medium font-Cincel text-lg pb-2">{contractMetadata?.name}</h1>
+              <h1 className="text-yellow-100 font-medium font-Cincel text-lg pb-2">AKASHA Collection</h1>
               <p className="text-white font-thin font-Proza text-sm py-2">{contractMetadata?.description}</p>
               {!isActiveClaimPhaseLoading ? (
                 <div>
                  
-                  <p className="text-yellow-200 font-medium font-Proza text-sm py-2">Price: {ethers.utils.formatUnits(activeClaimPhase?.price!)}</p>
+                  <p className="text-yellow-100 font-medium font-Proza text-sm py-2">Price: {ethers.utils.formatUnits(activeClaimPhase?.price!)}</p>
                 </div>
               ) : (
-                <p className="text-white text-center text-lg">Loading...</p>
+                <p className="text-white text-left text-lg">Loading...</p>
               )}
               {!isTotalSupplyLoading && !isTotalClaimSupplyLoading ? (
                 <p className="text-white font-medium font-Proza text-sm py-2">Claimed: {totalClaimSupply?.toNumber()} / {totalSupply?.toNumber()}</p>
               ) : (
-                <p className="text-white text-center text-lg">Loading...</p>
+                <p className="text-white text-left text-lg">Loading...</p>
               )}
               {address ? (
                 !isClaimIneligibilityReasonsLoading ? (
@@ -114,7 +116,7 @@ const Home: NextPage = () => {
                     ))
                   ) : (
                     <div>
-                      <p className="text-white font-Proza text-sm mb-4">You are eligible to claim</p>
+                      <p className="text-white font-Proza text-sm mb-4">You are eligible to claim </p>
                       <div className="justify-center flex-row w-64 ">
                         <div className={styles.claimValue}>
                           <button
@@ -134,10 +136,10 @@ const Home: NextPage = () => {
                         </div>
                         <Web3Button
                         className={styles.claimButton}
-                        
+                        onSuccess={() => alert("Claimed!")}
                           contractAddress={AKASHA_ADDRESS}
                           action={(contract) =>  contract.erc721.claim(claimQuantity)}
-                          onSuccess={() => router.push(`/profile/${address}`)}
+                          
                         >Claim NFT</Web3Button>
                       </div>
                     </div>

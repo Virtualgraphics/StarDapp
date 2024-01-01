@@ -7,7 +7,7 @@ const Hero = () => {
     return (
 
       <>
-      <div className="bg-indigo-500/20 px-4 py-10 mx-auto sm:px-8 sm:max-w-xl md:max-w-full mt-none lg:w-3/4 md:px-24 lg:px-10 lg:py-10 rounded-3xl mt-10" >
+      <div className="bg-indigo-500/20 px-4 py-10 mx-auto sm:px-8 sm:max-w-xl md:max-w-full mt-none lg:w-3/4 md:px-24 lg:px-10 lg:py-10 rounded-3xl mt-10 shadow-2xl" >
         <div className="grid gap-10 lg:grid-cols-2">
           <div className="lg:pr-10">
             
