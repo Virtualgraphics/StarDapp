@@ -25,7 +25,7 @@ const Hyperverse = () => {
             </h2>
             <hr className="w-full  border-yellow-200" />
             <p className="text-base text-center text-white lg:text-xl md:text-lg sm:px-4 py-5 font-Proza">
-            Blast off into the Hyperverse with the SKY GODZ: Gamefi Advent Calendar and propel your alien through the hyperverse and collect HYPER token rewards as you cross the dimensions.
+            Blast off into the Hyperverse with SKY GODZ: HYPERVERSE and propel your alien through the hyperverse and collect HYPER token rewards as you cross the dimensions.
             </p>
            
           </div>
@@ -209,8 +209,7 @@ const Hyperverse = () => {
 <p className='text-white text-sm font-Proza py-2'> Calendar: 0xE43E3d5Cbc74e6595a98db1eecfc64B90b2f2Ced</p>
 <p className='text-white text-sm font-Proza py-2'> Akasha Aliens: 0x015e2f19e492051cD66Be5EdFADF05f8813B8B1A</p>
 <p className='text-white text-sm font-Proza py-2'> Cosmic Energy: 0x1d012331e07179c1E49CcD877c5bE3ca23F1654e</p>
-<p className='text-white text-sm font-Proza py-2'> HYPER Token: 0x43f9A9BE99fC67592069Bc33Bd9597dbc2E7443</p>
-
+<p className='text-white text-sm font-Proza py-2'> HYPER Token: 0x43f9A9BE99fC67592069Bc33Bd9597dbc2E74436</p>
 
 </div>
 
