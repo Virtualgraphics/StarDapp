@@ -16,6 +16,7 @@ import { ethers } from "ethers";
 import { useRouter } from "next/router";
 import { useState } from "react";
 import styles from '/styles/Home.module.css'
+import Image from 'next/image'
 
 const Home: NextPage = () => {
   const address = useAddress();
@@ -82,10 +83,13 @@ const Home: NextPage = () => {
 
 
             <div className="w-full">
-              <MediaRenderer
-              className="rounded-2xl shadow-2xl"
-                src={contractMetadata?.image}
-              />
+            <Image
+              className="flex items-center justify-center   rounded-3xl px-4"
+              src="/assets/akasha_promo03.png"
+              alt="Advent Banner"
+              width={1000}
+              height={1000}
+            />
               <p className="text-white font-thin font-Proza text-sm text-left px-8 pt-4">Max. cLaimable per wallet: 2 NFTs</p>
               <p className="text-white font-thin font-Proza text-sm text-left px-8 pt-4">Price: 25 MATIC - Polygon</p>
             </div>
