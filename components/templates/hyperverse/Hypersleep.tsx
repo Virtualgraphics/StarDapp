@@ -131,10 +131,9 @@ const Hypersleep: NextPage = () => {
        <div className="justify-center m-auto flex-row">
 <h1 className="text-white font-Jost pb-8 text-center w-96 ">Please connect a wallet and make sure you own an Akasha Alien NFT.</h1>
 <div>
-<ConnectWallet 
-       btnTitle='Login'
-       className={styles.connectButton}
-       />
+<button className=" bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-5">
+  Maintenance
+</button>
 </div>
 </div>   
 

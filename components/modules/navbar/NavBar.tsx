@@ -67,10 +67,9 @@ function NavBar() {
          </Link>
        </div>
        <div className="py-2 mr-12 ">
-       <ConnectWallet 
-       btnTitle='Login'
-       className={styles.connectButton}
-       />
+       <button className=" bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-5">
+  Maintenance
+</button>
        </div>
      </div>
    </nav>

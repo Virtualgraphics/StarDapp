@@ -57,10 +57,11 @@ const { contract } = useContract(ENERGY_ADDRESS);
                 </div>
           
               <div className='w-60 flex items-center justify-center m-auto pb-12'>
-              <ConnectWallet 
-       btnTitle='Login'
-       className={styles.connectButton}
-       />
+              
+        <button className=" bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-5">
+        Maintenance
+      </button>
+  
               
               
               </div>
