@@ -21,64 +21,7 @@ import styles from '/styles/Home.module.css';
 
 const Hypersleep: NextPage = () => {
 
-  const nftDropContractAddress = "0x015e2f19e492051cD66Be5EdFADF05f8813B8B1A";
-  const stakingContractAddress = "0x26553Beb158e862042c176fb42697D769AA19654";
-  const tokenContractAddress = "0x43f9A9BE99fC67592069Bc33Bd9597dbc2E74436";
- 
-
-
-  const address = useAddress();
-  const { contract: nftDropContract } = useContract(
-    nftDropContractAddress,
-    "nft-drop"
-  );
-
   
-
-  const { contract: tokenContract } = useContract(
-    tokenContractAddress,
-    "token"
-  );
-  const { contract, isLoading } = useContract(stakingContractAddress);
-  const { data: ownedNfts } = useOwnedNFTs(nftDropContract, address);
- 
-  const { data: tokenBalance } = useTokenBalance(tokenContract, address);
-  const [claimableRewards, setClaimableRewards] = useState<BigNumber>();
-  const { data: stakedTokens } = useContractRead(contract, "getStakeInfo", [
-    address,
-  ]);
-
-  useEffect(() => {
-    if (!contract || !address) return;
-
-    async function loadClaimableRewards() {
-      const stakeInfo = await contract?.call("getStakeInfo", [address]);
-      setClaimableRewards(stakeInfo[1]);
-    }
-
-    loadClaimableRewards();
-  }, [address, contract]);
-
-  async function stakeNft(id: string) {
-    if (!address) return;
-
-    const isApproved = await nftDropContract?.isApproved(
-      address,
-      stakingContractAddress
-    );
-    if (!isApproved) {
-      await nftDropContract?.setApprovalForAll(stakingContractAddress, true);
-    }
-    await contract?.call("stake", [[id]]);
-  }
-
-  if (isLoading) {
-    return <div className="h-screen mt-96 justify-center m-auto flex"><Spinner/></div>;
-  }
-
-
-
-
   return (
 
     <div className="justify-center px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-12">
@@ -114,7 +57,7 @@ const Hypersleep: NextPage = () => {
 
 
 
-    (
+   
         <div className=" grid gid-rows-2 gap-4 ">
 
 

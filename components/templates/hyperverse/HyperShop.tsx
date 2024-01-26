@@ -28,18 +28,7 @@ import styles from '/styles/Home.module.css'
 const HyperShop = () => {
 
 
-const address = useAddress();
-const { contract: akashacontract } = useContract(AKASHA_ADDRESS);
-const [quantity, setQuantity] = useState(1);
 
-const { data: ownedAkasha, isLoading: loadingOwnedAkasha } = useOwnedNFTs(akashacontract, address);
-
-const { contract } = useContract(ENERGY_ADDRESS);
-    const { data: nfts } = useNFTs(contract);
-    console.log(nfts);
-
-
-    if (!address) {
 
         return (
           <div className="container-lg py-24 px-8">
@@ -88,8 +77,6 @@ const { contract } = useContract(ENERGY_ADDRESS);
        
 
 
-  
-};
 
 
 export default HyperShop;
