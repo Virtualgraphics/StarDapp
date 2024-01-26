@@ -53,7 +53,7 @@ const NFTMint = () => {
 
 <div className=' items-center justify-center w-full '>
   
-<AkashaMint/>
+
 
 <div className="grid lg:grid-cols-4 sm:grid-cols-1 md:grid-cols-2 gap-4 w-8/12 justify-center m-auto">
 

@@ -114,7 +114,7 @@ const Hypersleep: NextPage = () => {
 
 
 
-      {!address ? (
+    (
         <div className=" grid gid-rows-2 gap-4 ">
 
 
@@ -139,99 +139,7 @@ const Hypersleep: NextPage = () => {
 
         </div>
 
-      ) : (
-        <>
-
-<div className="grid grid-row-3 gap-8">
-         <div>
-          <h2 className="text-white text-lg font-medium font-Proza  text-center">My Tokens</h2>
-         </div>
-
-         
-
-            <div className="sm:w-full md:w-full lg:w-1/2 h-full p-4 border border-yellow-100 rounded-xl flex flex-col justify-items-center m-auto">
-              <h3 className="my-0 font-Jost  text-yellow-100">Claimable Rewards</h3>
-              <p className="text-base my-2 text-white font-Jost">
-                <b>
-                  {!claimableRewards
-                    ? "Loading..."
-                    : ethers.utils.formatUnits(claimableRewards, 18)}
-                </b>{" "}
-                {tokenBalance?.symbol}
-              </p>
-            </div>
-            
-
-            <div className="sm:w-full md:w-full lg:w-1/2 h-full p-4 border border-yellow-100 rounded-xl flex flex-col justify-items-center m-auto">
-              <h3 className="my-0 font-Jost  text-yellow-100">Current Balance</h3>
-              <p className="text-medium my-2 text-white font-Jost tracking-wide">
-                <b>{tokenBalance?.displayValue}
-                </b> {" "}
-                
-                {tokenBalance?.symbol}
-              </p>
-            </div>
-          </div>
-
-
-          <div className="py-8 text-center">
-          <Web3Button
-           className={styles.claimButton}
-            action={(contract) => contract.call("claimRewards")}
-            contractAddress={stakingContractAddress}
-          >
-            Claim Rewards
-          </Web3Button>
-          </div>
-
-          <p className="text-blue-100 text-center text-sm">Refresh the page after staking/unstaking to see current rewards.</p>
-
-          <hr className="max-w-screen justify-center  m-auto border-yellow-200 my-8" />
-
-          <h2 className="text-white text-lg font-medium font-Proza pb-8 text-center">My Akasha NFTs</h2>
-
-          <div className="w-full">
-            {stakedTokens &&
-              stakedTokens[0]?.map((stakedToken: BigNumber) => (
-                <NFThypersleep
-                  tokenId={stakedToken.toNumber()}
-                  key={stakedToken.toString()}
-                />
-              ))}
-          </div>
-      
-        
-          <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 ">
-            {ownedNfts?.map((nft) => (
-              <div className="justify-center" key={nft.metadata.id.toString()}>
-                <ThirdwebNftMedia
-                  metadata={nft.metadata}
-                  className=" border-cyan-200/40 border px-4 bg-gradient-to-b from-blue-900 to-blue-950/50  rounded-2xl shadow-2xl"
-                />
-
-                <div className="w-full text-white justify-center mx-auto text-center">
-                <h3 className="rounded-2xl pt-4">{nft.metadata.name}</h3>
-
-                <div className="py-6">
-                <Web3Button
-                 className={styles.boostButton}
-                  contractAddress={stakingContractAddress}
-                  action={() => stakeNft(nft.metadata.id)}
-                >
-                  Stake Akasha
-                </Web3Button></div> </div>
-              </div>
-            ))}
-          </div>
-
-
-          
-
-          
-
-
-        </>
-      )}
+    
       </div>
       </div>
       </div>
@@ -240,6 +148,8 @@ const Hypersleep: NextPage = () => {
     </div>
 
    
+      
+
   );
 };
 

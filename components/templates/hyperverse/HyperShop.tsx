@@ -70,72 +70,12 @@ const { contract } = useContract(ENERGY_ADDRESS);
         );
       }
     
-      if (loadingOwnedAkasha) {
-        return(
-          <div className="container-lg">
-            <div className="h-screen mt-96 justify-center m-auto flex"><Spinner/></div>;
-    
-          </div>
-        );
-      }
-    
-      if (ownedAkasha?.length === 0) {
-  
-  
-        
-        return (
-  <div className="w-full justify-center mx-auto pt-24 px-8">
-    <h1 className="text-yellow-100 text-2xl font-semibold font-Jost text-center">To access the HYPERVERSE Shop you need to own an Akasha Alien!</h1>
-    <p className="text-white text-lg font-Jost text-center py-4 ">You currently do not own an Akasha Alien. Head to the Advent Calendar page, claim an alien and receive an Akasha alien airdrop to access the shop.</p>
-  <div className=" items-center justify-center m-auto py-4">
-  
-  <div className="justify-center m-auto w-96 py-16 h-full">
-                <Image
-                className="rounded-full"
-                src="/assets/energy_collection.jpg"
-                alt="Akasha Collection"
-                width={800}
-                height={800}
-              />
-                
-  
-                <div className="flex items-center justify-center p-8">
-              <Link href="/hyperverse">
-             <button className="bg-blue-800 hover:bg-blue-700 text-yellow-200  py-4 px-6 rounded-2xl">
-    Get an Akasha NFT to log in
-  </button>
-  </Link>
-  </div>
-  </div>
-  </div>
-            
-  </div>
-        );
-      }
- 
-  return (
-    <div className="justify-center px-4 py-12 mx-auto  sm:px-4 sm:max-w-xl md:max-w-full lg:max-w-6xl md:px-24 lg:px-8 lg:py-2">
-
-<div>
-
-<div className="justify-center mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-lg md:px-24 lg:px-8 lg:pt-10">
-    <div className=" grid max-w-screen-lg row-gap-5 sm:text-center sm:mx-auto">
+     
       
 
-        <div className="m-auto w-96 py-2">
-        <Image
-      className="m-auto py-2"
-      src="/assets/star_divider.svg"
-      alt="Star Divider"
-      width={1260}
-      height={750}
-    />
-        </div>
 
-        <h2 className="m-auto mb-4 text-2xl text-center font-bold text-yellow-100 sm:text-3xl sm:leading-none sm:m-auto font-Cinzel py-8 tracking-wider">
-            SKY GODZ: Hyperverse Shop
-            </h2>
-            <hr className="w-full justify-center  border-yellow-200" />
+
+
 
 
 
@@ -147,75 +87,8 @@ const { contract } = useContract(ENERGY_ADDRESS);
 
        
 
-        <p className="text-base text-white text-center lg:text-lg md:text-lg sm:px-4 pt-6 font-Jost">
-       Purchase COSMIC ENERGY NFTs with HYPER tokens to boost your Akasha Alien power and gain more HYPER. 
-        </p>
-        </div>
-        </div>
 
-            {!nfts ? (
-                <div className="flex justify-center mx-auto p-24">
-                    
-                </div>
-            ) : (
-                <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                    {nfts?.map((nftItem) => (
-                        <EnergyItems 
-                            key={nftItem.metadata.id}
-                            nft={nftItem}
-                        />
-                    ))}
-                </div>
-            )}
-
-</div>
-
-
-
-<div className="bg-gradient-to-t from-blue-800/40 to-blue-900/20 rounded-3xl w-3/4 flex justify-center m-auto shadow-lg p-8 mb-12">
-<div className='grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-6'>
-
-<div className="">
-<h1 className='text-left text-yellow-100 font-Proza text-xl'>Play the HYPERSLEEP Game</h1>
-<p className='text-white text-base font-Proza py-4'>Send your Akasha Alien on extended journey to the core of the Hyperverse and get additional HYPER Token rewards.</p>
-<p className='text-blue-200 text-md font-Proza py-4'>Coming on December 31, 2023...</p>
-</div>
-
-
-
-<div className="w-80 h-80 justify-end flex m-auto">
-
-<Image
-      className=" rounded-3xl shadow-md"
-      src="/assets/hypersleep.jpg"
-      alt="Akasha Staff"
-      width={800}
-      height={800}
-    />
-
-</div>
-</div>
-
-
-</div>
-
-
-
-
-
-
-
-</div>
-
-
-
-
-
-
-       
-
-
-  );
+  
 };
 
 
