@@ -19,7 +19,7 @@ import { Credits } from '../credits';
    <FrontSlider/>
 
    <h1 className='text-yellow-300 text-center text-xl font-Proza py-8'>
-Note: We will be performing maintenance this weekend and all Web3 functionality will be available again by Monday morning.
+Note: We will be performing maintenance all week and we will be back by Monday, February 5, 2024.
    </h1>
 
    <div className="grid lg:grid-cols-4 sm:grid-cols-1 md:grid-cols-2 gap-4 w-3/4 justify-center m-auto shadow-2xl">
