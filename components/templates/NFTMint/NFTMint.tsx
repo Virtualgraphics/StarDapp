@@ -17,7 +17,7 @@ import {
 } from "@thirdweb-dev/react";
 import { BigNumber, utils } from "ethers";
 import { NftCard } from '../nftcard';
-import { AkashaMint } from '../akashamint';
+
 import styles from '../styles/Home.module.css'
 
 
