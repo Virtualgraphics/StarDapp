@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
 
     
-      clientId={process.env.NEXT_PUBLIC_TEMPLATE_CLIENT_ID}
+      clientId={'c4af3df6c2aac61f4295b4bf6dee9086'}
       activeChain={activeChain}
     >
       <Component {...pageProps} />

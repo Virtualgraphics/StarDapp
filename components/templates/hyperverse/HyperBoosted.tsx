@@ -23,7 +23,7 @@ export const HyperBoosted = (props: EquippedProps) => {
     );
 
     return (
-        <div  p-2>
+        <div className="sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 p-2">
             {nft && (
                 <div className="mx-auto justify-center">
                     <div className=' mx-auto justify-center '>

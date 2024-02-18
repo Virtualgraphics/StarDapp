@@ -6,19 +6,16 @@ import Image from 'next/image'
 const fadeImages = [
 
   {
-    url: 'https://www.skygodz.com/wp-content/uploads/2023/12/slide_08.jpg',
+    url: 'https://www.skygodz.com/wp-content/uploads/2024/02/skygodz_slide06.jpg',
     caption: ''
   },
+  {
+    url: 'https://www.skygodz.com/wp-content/uploads/2024/02/skygodz_slide07.jpg',
+    caption: ''
+  },
+
   {
     url: 'https://www.skygodz.com/wp-content/uploads/2023/01/skygodz_slide01.jpg',
-    caption: ''
-  },
-  {
-    url: 'https://www.skygodz.com/wp-content/uploads/2023/01/skygodz_slide02.jpg',
-    caption: ''
-  },
-  {
-    url: 'https://www.skygodz.com/wp-content/uploads/2023/01/skygodz_slide03.jpg',
     caption: ''
   },
   {

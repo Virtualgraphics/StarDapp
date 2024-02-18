@@ -11,8 +11,8 @@ type Props = {
 
 export function HyperInventory({ nft }: Props) {
     const address = useAddress();
-    const { contract: toolContract } = useContract(ENERGY_ADDRESS);
-    const { contract: stakingContract } = useContract(STAKING_ADDRESS);
+    const { contract: toolContract } = useContract('0x1d012331e07179c1E49CcD877c5bE3ca23F1654e');
+    const { contract: stakingContract } = useContract('0x85D7CfBDB6e65Bfcca1d9683c50c4c322a1D5366');
 
     async function stakeNFT(id: string) {
         if (!address) {
@@ -47,16 +47,15 @@ export function HyperInventory({ nft }: Props) {
     }
 
     return (
-        <div className='grid gap-4 grid-cols-3' >
+        <div className='grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-4 ' >
             {nft?.map((nft) => (
-                <div className='grid py-4 ' key={nft.metadata.id} >
-                    <div className='grid py-4  '>
+                <div className='grid' key={nft.metadata.id} >
+                    <div className='grid  my-4 '>
                     <MediaRenderer 
-                     className=" rounded-3xl shadow-md"
+                     className=" rounded-2xl shadow-2xl"
                         src={nft.metadata.image} 
                         height="100%"
                         width="100%"
-                        
                     />
                     <p className='text-white text-xl py-4 text-center'>{nft.metadata.name}</p>
                     <Web3Button

@@ -17,7 +17,7 @@ import {
 } from "@thirdweb-dev/react";
 import { BigNumber, utils } from "ethers";
 import { NftCard } from '../nftcard';
-
+import { AkashaMint } from '../akashamint';
 import styles from '../styles/Home.module.css'
 
 
@@ -29,7 +29,7 @@ const NFTMint = () => {
     
 
   return (
-    <div className="justify-center px-4 py-14 mx-auto  sm:px-4 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-8">
+    <div className="justify-center px-4 py-16 mx-auto  sm:px-4 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-8">
     <div className="max-w-screen-sm sm:text-center sm:mx-auto">
       
 
@@ -43,7 +43,7 @@ const NFTMint = () => {
       />
         </div>
         <h2 className="m-auto mb-4 text-2xl text-center font-semibold tracking-wider text-yellow-100 sm:text-3xl sm:leading-none sm:m-auto font-Cinzel py-3">
-        SKY GODZ: NFT Collections
+        SKY GODZ: Stargazer NFT Collections
         </h2>
         <hr className="w-full  border-yellow-200" />
         <p className="text-base text-white lg:text-md md:text-md mb-6 sm:px-4 py-5 font-Proza">
@@ -53,16 +53,29 @@ const NFTMint = () => {
 
 <div className=' items-center justify-center w-full '>
   
+<AkashaMint/>
 
+<div className='m-auto justify-center flex rounded-3xl bg-gradient-to-t from-blue-800/40 to-blue-900/20 mb-8 sm:max-w-xl sm:py-5 md:max-w-full lg:max-w-screen-sm'>
 
-<div className="grid lg:grid-cols-4 sm:grid-cols-1 md:grid-cols-2 gap-4 w-8/12 justify-center m-auto">
+<div>
+<h1 className='text-yellow-100 text-center font-Proza text-lg'>Cool utilities for your Akasha alien:</h1>
+<p className='text-white text-center font-Proza text-md py-2'>1. Collect the unique Akasha Aliens.</p>
+<p className='text-white text-center font-Proza text-md py-2'>2. Play Hypersleep Game and get HYPER token rewards.</p>
+<p className='text-white text-center font-Proza text-md py-2'>3. Get STARDUST airdrops for your HYPER token balance.</p>
+<p className='text-white text-center font-Proza text-md py-2'>4. Use your Akasha alien in the upcoming Stargazer RPG, Anime and Webtoon.</p>
+
+</div>
+
+</div>
+
+<div className="grid lg:grid-cols-4 sm:grid-cols-1 md:grid-cols-2 gap-4 w-3/4 justify-center m-auto shadow-2xl py-8 px-8 my-8 rounded-3xl">
 
 <div>
 
 <Image
-              className="flex items-center justify-center mx-auto mt-8 rounded-3xl"
+              className="flex items-center justify-center mx-auto  rounded-3xl"
               src="/assets/akasha_promo03.png"
-              alt="Advent Banner"
+              alt="Akasha Promo 03r"
               width={1000}
               height={1000}
             />
@@ -72,9 +85,9 @@ const NFTMint = () => {
 <div>
 
 <Image
-              className="flex items-center justify-center mx-auto mt-8 rounded-3xl"
+              className="flex items-center justify-center mx-auto  rounded-3xl"
               src="/assets/akasha_promo04.png"
-              alt="Advent Banner"
+              alt="Akasha Promo 04"
               width={1000}
               height={1000}
             />
@@ -85,9 +98,9 @@ const NFTMint = () => {
 <div>
 
 <Image
-              className="flex items-center justify-center mx-auto mt-8 rounded-3xl"
+              className="flex items-center justify-center mx-auto  rounded-3xl"
               src="/assets/akasha_promo01.png"
-              alt="Advent Banner"
+              alt="Akasha Promo 01"
               width={1000}
               height={1000}
             />
@@ -98,36 +111,19 @@ const NFTMint = () => {
 <div>
 
 <Image
-              className="flex items-center justify-center mx-auto mt-8 rounded-3xl"
+              className="flex items-center justify-center mx-auto rounded-3xl"
               src="/assets/akasha_promo02.png"
               alt="Advent Banner"
               width={1000}
               height={1000}
             />
 
-</div>
-
-</div>
+</div></div>
 
 
 
-<div className='m-auto justify-center flex rounded-3xl bg-gradient-to-t from-blue-800/40 to-blue-900/20 my-12 sm:max-w-xl sm:p-8 md:p-8 lg:p-12 md:max-w-full lg:max-w-screen-sm'>
 
-<div>
-<h1 className='text-yellow-100 text-center font-Proza text-lg'>Cool utilities for your Akasha alien:</h1>
-<p className='text-white text-center font-Proza text-md py-2'>1. First ever SKY GODZ NFT collection. Not to be missed...</p>
-<p className='text-white text-center font-Proza text-md py-2'>2. Play Hyperverse Game and get HYPER token rewards.</p>
-<p className='text-white text-center font-Proza text-md py-2'>3. Play Hypersleep Game and get HYPER token rewards.</p>
-<p className='text-white text-center font-Proza text-md py-2'>4. Get STARDUST airdrops for your HYPER token balance.</p>
-<p className='text-white text-center font-Proza text-md py-2'>5. Use your Akasha alien in the upcoming Stargazer RPG to get assets.</p>
-
-</div>
-
-</div>
-
-<hr className="w-1/2  border-yellow-200 justify-center m-auto flex" />
-
-<div className="text-yellow-100 text-xl tracking-widest font-Proza text-center font-semibold my-8">SKY GODZ Founder Edition coming soon...</div>
+<div className="text-yellow-100 text-2xl tracking-widest font-Proza text-center font-semibold">SKY GODZ Founder Edition coming soon...</div>
 
 <NftCard/>
 

@@ -6,7 +6,8 @@ import { Intro } from '../intro';
 import Image from 'next/image'
 import Link from 'next/link'
 import { Credits } from '../credits';
-
+import ReactPlayer from 'react-player'
+import styles from '/styles/Home.module.css'
 
   
   const Home = () => {
@@ -16,20 +17,18 @@ import { Credits } from '../credits';
 
    <div>  
 
-   <FrontSlider/>
+ 
+<FrontSlider/>
+   
 
-   <h1 className='text-yellow-300 text-center text-xl font-Proza py-8'>
-Note: We will be performing maintenance all week and we will be back by Monday, February 5, 2024.
-   </h1>
-
-   <div className="grid lg:grid-cols-4 sm:grid-cols-1 md:grid-cols-2 gap-4 w-3/4 justify-center m-auto shadow-2xl">
+   <div className="grid lg:grid-cols-4 sm:grid-cols-1 md:grid-cols-2 gap-4 w-3/4 justify-center m-auto shadow-2xl pt-8">
 
 <div>
 
 <Image
               className="flex items-center justify-center mx-auto mt-8 rounded-3xl"
               src="/assets/akasha_promo03.png"
-              alt="Advent Banner"
+              alt="Akasha Promo 03r"
               width={1000}
               height={1000}
             />
@@ -41,7 +40,7 @@ Note: We will be performing maintenance all week and we will be back by Monday, 
 <Image
               className="flex items-center justify-center mx-auto mt-8 rounded-3xl"
               src="/assets/akasha_promo04.png"
-              alt="Advent Banner"
+              alt="Akasha Promo 04"
               width={1000}
               height={1000}
             />
@@ -54,7 +53,7 @@ Note: We will be performing maintenance all week and we will be back by Monday, 
 <Image
               className="flex items-center justify-center mx-auto mt-8 rounded-3xl"
               src="/assets/akasha_promo01.png"
-              alt="Advent Banner"
+              alt="Akasha Promo 01"
               width={1000}
               height={1000}
             />
