@@ -45,10 +45,10 @@ const Hero = () => {
           <div className='shadow-2xl'>
             <Image
               className="object-cover w-full h-full rounded-3xl shadow-3xl shadow-lg"
-              src="/assets/feature_gn.jpg"
+              src="/assets/skygodz_story_header.jpg"
               alt="Main Image"
-              width={861}
-              height={820}
+              width={1000}
+              height={992}
             />
 
 

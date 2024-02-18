@@ -21,6 +21,16 @@ import styles from '/styles/Home.module.css'
 <FrontSlider/>
    
 
+<div className="  w-3/4 justify-center m-auto pt-12 sm:px-4 md: px-12 lg:px-20">
+<h1 className="text-center text-blue-100 sm:text-lg md:text-lg lg:text-2xl font-Proza">
+Mint a beautiful, one of a kind Akasha Alien NFT and blast off into the Hyperverse with the SKY GODZ: HYPERVERSE game.
+</h1>
+
+</div>
+
+
+
+
    <div className="grid lg:grid-cols-4 sm:grid-cols-1 md:grid-cols-2 gap-4 w-3/4 justify-center m-auto shadow-2xl pt-8">
 
 <div>
@@ -73,14 +83,7 @@ import styles from '/styles/Home.module.css'
 
 </div></div>
 
-<div className="  w-3/4 justify-center m-auto pt-12 px-20">
-<h1 className="text-center text-blue-100 text-2xl font-Proza">
-Blast off into the Hyperverse with the SKY GODZ: HYPERVERSE game and collect HYPER token rewards as you travel the dimensions.
-</h1>
-
-
-
-
+<div className="  w-3/4 justify-center m-auto pt-4 sm:px-4 md: px-12 lg:px-20">
 
 <div className=" flex items-center justify-center py-8">
             <Link href="/hyperverse">
