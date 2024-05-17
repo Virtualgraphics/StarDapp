@@ -13,15 +13,16 @@
   "dependencies": {
     "@headlessui/react": "^1.7.16",
     "@heroicons/react": "^2.0.18",
-    "@thirdweb-dev/react": "^3",
-    "@thirdweb-dev/sdk": "^3",
+    "@thirdweb-dev/react": "^4.6.24",
+    "@thirdweb-dev/sdk": "^4.0.85",
     "autoprefixer": "^10.4.14",
-    "ethers": "^5",
+    "ethers": "5",
     "heroicons": "^2.0.18",
-    "next": "^14.1.0",
+    "latest": "^0.2.0",
+    "next": "^14.2.3",
     "postcss": "^8.4.27",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-icons": "^4.10.1",
     "react-player": "^2.14.1",
     "react-slideshow-image": "^4.2.1",
@@ -31,7 +32,7 @@
     "@types/node": "^18.11.11",
     "@types/react": "^18",
     "eslint": "^8.29.0",
-    "eslint-config-next": "^14.1.0",
+    "eslint-config-next": "^14.2.3",
     "typescript": "^5.3.3"
   }
 }
