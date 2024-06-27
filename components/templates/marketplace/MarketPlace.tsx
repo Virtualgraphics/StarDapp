@@ -25,11 +25,11 @@ const MarketPlace = () => {
             </h2>
             <hr className="w-full  border-yellow-200" />
             <p className="text-base text-white lg:text-xl md:text-lg sm:px-4 py-5 font-Proza">
-            List, sell and buy SKY GODZ NFTs and collectibles in the Stargazer Marketplace
+            List, sell and buy NFTs and collectibles in the SKY GODZ Marketplace
             </p>
            </div>
 
-           <div className="container my-12 mx-auto md:px-6">
+           <div className="container my-4 mx-auto md:px-6">
   
   <section className="mb-14 w-4/5 justify-center mx-auto flex">
 
@@ -38,8 +38,8 @@ const MarketPlace = () => {
 
 <Image
           className="m-auto"
-          src="/assets/founder_top.jpg"
-          alt="Cemetary"
+          src="/assets/founder_whitelionNEW.jpg"
+          alt="Lion"
           width={1000}
           height={800}
         />
@@ -50,7 +50,7 @@ const MarketPlace = () => {
         <div className="flex h-full items-center justify-center">
           <div className="px-6 text-center text-yellow-100 md:px-12">
             <h2 className="mb-12 text-3xl  leading-tight tracking-wide font-Proza Libre">
-            Are you ready <br /><span>for an adventure?</span>
+            Are you ready <br /><span>to trade?</span>
             </h2>
             <Link href="/buy">
                <button type="button"

@@ -34,89 +34,54 @@ const Token = () => {
             SKY GODZ  -TOKENS
             </h2>
             <hr className="w-full  border-yellow-200" />
-            <p className="text-base text-white text-center lg:text-lg  md:text-lg sm:px-4 py-8 font-Proza">
-           Claim your SKY GODZ LOTUS and STARDUST tokens below and play the Stargazer Games. 
-            </p>
+</div>
 
-<div className="grid max-w-screen-lg gap-8 row-gap-5 md:row-gap-8 sm:mx-auto lg:grid-cols-2">
-
-<div className="bg-indigo-900/20  rounded-2xl w-72 drop-shadow-lg justify-center m-auto " >
+<div className="max-w-5xl justify-center m-auto flex mt-8">
 
 <Image
-              className="p-10 rounded-full shadow-3xl"
-              src="/assets/token_lotus750.jpg"
-              alt="Lotus"
-              width={1260}
-              height={750}
-            />
-
-          <h1 className="text-yellow-100 font-semibold  text-center text-2xl ">LOTUS Token</h1>
-          <h2 className="text-white text-md text-center py-2">Claim LOTUS Tokens</h2>
-
-<div className="mt-5 mb-5  justify-center m-auto flex sm:w-8 md:w-32 lg:w-48">
-          <input 
-    id="1"
-    type="text"  
-    placeholder="Enter amount to claim" 
-className="flex-grow  h-10 px-2 mb-3 text-black text-base transitiom duration-200 border-2 border-transparent rounded appearance-none md:mr-2 md:mb-0 bg-deep-purple-900 focus:border-teal-accent-700 focus:outline-none focus:shadow-outline"
-            
-   
-    onChange={(e) => setAmountToClaim(e.target.value)}
-    
-    />
-    </div>
-<div className="justify-center pb-8">
-<button className="bg-blue-500 hover:bg-blue-700 text-white w-36 h-10 font-semibold  py-2 rounded  justify-center m-auto flex ">
-            Coming soon</button>
-          </div>
-              </div>
-
-
-<div className="bg-indigo-900/20 rounded-2xl w-72 drop-shadow-lg  justify-center m-auto ">
-
-
-<Image
-              className="p-10 rounded-full"
-              src="/assets/token_stardust750.jpg"
+              className=" rounded-3xl  "
+              src="/assets/stardust_banner.jpg"
               alt="Stardust"
-              width={1260}
-              height={750}
+              width={1990}
+              height={900}
             />
-
-<h1 className="text-yellow-100 font-semibold text-center text-2xl">STARDUST Token</h1>
-<h2 className="text-white text-md text-center py-2">Claim STARDUST Tokens</h2>
-
+</div>
   
-<div className="mt-5 mb-5 justify-center m-auto flex sm:w-8 md:w-32 lg:w-48">
+<div className="max-w-4xl justify-center m-auto flex mt-8">
 
-          <input 
-    id="1"
-    type="text"  
-    placeholder="Enter amount to claim" 
-className="flex-grow  h-10 px-2 mb-3 text-black text-base transitiom duration-200 border-2 border-transparent rounded appearance-none md:mr-2 md:mb-0 bg-deep-purple-900 focus:border-teal-accent-700 focus:outline-none focus:shadow-outline"
-            
-   
-    onChange={(e) => setAmountToClaim(e.target.value)}
-    
-    />
-    </div>
-   
-   
-    <div className="justify-center pb-8">
-<button className="bg-blue-500 hover:bg-blue-700 text-white w-36 h-10 font-semibold  py-2 rounded  justify-center m-auto flex ">
-            Coming soon</button>
-          </div>
-         </div>
-              </div>
+<p className='text-white text-lg text-center font-Proza'>The STARDUST Token is the in-game and reward token for all activities in the Stardapp as well as the entire SKY GODZ universe. Earn STAR by playing games, watching anime, reading webtoons and trading NFTs..</p>
+</div>
+
+
+<div className="max-w-5xl justify-center m-auto flex mt-8">
+<div className="grid grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-12"></div>
+
+<div className=" py-2 px-8">
+<button className=" bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-6 rounded-xl mt-5">
+  Read Litepaper
+</button></div>
+
+<div className=" py-2 px-8">
+<button className=" bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-6 rounded-xl mt-5">
+  Fairlaunch on Pinksale
+</button></div>
+
+</div>
+
+<div className="max-w-3xl justify-center m-auto flex mt-8">
+
+<p className='text-blue-200 text-md font-Proza'>Deployed to the Polygon Network</p></div>
+
+<div className="max-w-3xl justify-center m-auto flex mt-4">
+
+<p className='text-blue-200 text-md font-Proza'>Contract Address: 0x132f4dB1Ee1CDD163DccA35706aE1ce0EC2dbA74 </p>
 </div>
 
 
 
-  
-
 <div className="pb-12  justify-items-center overflow-hidden">
 
-<div className=" pt-24 m-auto  justify-center">
+<div className=" pt-14 m-auto  justify-center">
 <h1 className=" text-white text-lg text-center font-semibold">
               Use your SKY GODZ tokens for the following cool activities:
             </h1></div>
@@ -124,27 +89,27 @@ className="flex-grow  h-10 px-2 mb-3 text-black text-base transitiom duration-20
       <div className="w-4/5 m-auto grid gap-8 row-gap-5 md:row-gap-8 lg:grid-cols-3 mt-10 sm:grid-cols-2">
         <div className="duration-300 transform bg-blue-900 border-l-4 border-deep-purple-accent-900 hover:-translate-y-2 rounded-2xl">
           <div className="h-full p-5 rounded-r shadow-sm">
-            <h6 className="mb-2 font-semibold leading-5 text-blue-300">Earn rewards in the RPG</h6>
+            <h6 className="mb-2 font-semibold leading-5 text-blue-300">Earn rewards in the Games</h6>
             <p className="text-sm text-white">
-              Get rewards for missions and quests successfully accomplished in the Stargazer RPG and trade tokens for in-game NFTs.
+              Get rewards for missions and quests successfully accomplished in the Sky Godz games and trade tokens for in-game NFTs.
             </p>
           </div>
         </div>
         <div className="duration-300 transform bg-blue-900 border-l-4 border-deep-purple-accent-400 hover:-translate-y-2 rounded-2xl">
           <div className="h-full p-5  rounded-r shadow-sm">
-            <h6 className="mb-2 font-semibold leading-5 text-blue-300">Power up your Stargate</h6>
+            <h6 className="mb-2 font-semibold leading-5 text-blue-300">Play the Defi Games</h6>
             <p className="text-sm text-white">
-              Use the Stardust tokens to claim cosmic energy sources for your Stargate and get more STAR as a reward.
+              Use the Stardust tokens to claim cosmic energy sources and crystals to power up your Founders NFTs and get more STAR as a reward.
             </p>
           </div>
         </div>
         <div className="duration-300 transform bg-blue-900 border-l-4 border-deep-purple-accent-400 hover:-translate-y-2 rounded-2xl">
           <div className="h-full p-5  rounded-r shadow-sm">
-            <h6 className="mb-2 font-semibold leading-5 text-blue-300">Vote for your stories
+            <h6 className="mb-2 font-semibold leading-5 text-blue-300">Mint the Webtoons and Anime
               
             </h6>
             <p className="text-sm text-white">
-              Use the tokens to participate in the anime and webtoons and get rewarded for a story path well-chosen.
+              Use the STAR tokens to participate in the anime and webtoons and collect, own or trade the episodes.
             </p>
           </div>
         </div>

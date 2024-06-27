@@ -11,7 +11,7 @@ const GameCard = () => {
             <div className="relative">
             <Image
               className="object-cover w-full h-64 rounded-t sm:h-10 lg:h-80 xl:h-96"
-              src="/assets/hyper_game.jpg"
+              src="/assets/crystal_game.jpg"
               alt="Stargate Game"
               width={1260}
               height={750}
@@ -20,12 +20,12 @@ const GameCard = () => {
             </div>
             <div className="px-6 py-8 border border-t-0 rounded-b sm:px-8">
               <h5 className="text-yellow-100 mb-2 text-xl font-bold leading-none sm:text-2xl">
-              HYPERVERSE DEFI GAME
+              DESERT CRYSTALS DEFI GAME
               </h5>
               <p className="mb-5 text-gray-300">
               Send your Akasha Alien on extended journey to the core of the Hyperverse and get additional HYPER Token rewards. You need to be a holder of at least 1 Akasha alien. You can mint more aliens on the NFT page. 
               </p>
-              <Link href="/hyperverse">  
+              <Link href="/desertcrystal">  
 <button className="bg-blue-500 hover:bg-blue-700 text-white w-40 h-10 font-bold  px-4 rounded mt-1">
             Play now</button></Link>
             </div>
@@ -36,7 +36,7 @@ const GameCard = () => {
             <div className="relative">
             <Image
               className="object-cover w-full h-64 rounded-t lg:h-80 xl:h-96"
-              src="/assets/app_frontIMAGE_game02.jpg"
+              src="/assets/hyper_sleep_front.jpg"
               alt="Stargazer Game"
               width={1260}
               height={750}
@@ -45,16 +45,15 @@ const GameCard = () => {
             </div>
             <div className="px-6 py-8 border border-t-0 rounded-b-lg sm:px-8">
               <h5 className="text-yellow-100 mb-2 text-xl font-bold leading-none sm:text-2xl">
-              STARGAZER RPG
+              HYPERVERSE DEFI GAME
               </h5>
               <p className="mb-5 text-gray-300">
-              SKY GODZ Stargazer is a third-person, single player Ascension RPG for the browser and multi-player RPG for the PC. Use your Founder NFTs and other assets to interact and build out your world. 
+              Send your Akasha Alien on extended journey to the core of the Hyperverse and get additional HYPER Token rewards. You need to be a holder of at least 1 Akasha alien. You can mint more aliens on the NFT page. 
 
               </p>
-             
+              <Link href="/hyperverse">  
 <button className="bg-blue-500 hover:bg-blue-700 text-white w-40 h-10 font-bold  px-4 rounded mt-1">
-            Coming soon</button>
-            
+            Play now</button></Link>
             </div>
           </div>
         </div>

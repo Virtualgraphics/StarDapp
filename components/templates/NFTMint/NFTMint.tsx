@@ -43,30 +43,128 @@ const NFTMint = () => {
       />
         </div>
         <h2 className="m-auto mb-4 text-2xl text-center font-semibold tracking-wider text-yellow-100 sm:text-3xl sm:leading-none sm:m-auto font-Cinzel py-3">
-        SKY GODZ: Stargazer NFT Collections
+        SKY GODZ NFT Collections
         </h2>
         <hr className="w-full  border-yellow-200" />
         <p className="text-base text-white lg:text-md md:text-md mb-6 sm:px-4 py-5 font-Proza">
-        SKY GODZ Stargazer Founder NFTs are unique digital avatars that give you access to all game, anime and webtoon content on the Stardapp, as well as special airdrops and access to the DeFi games.
+        SKY GODZ Stargazer Founder NFTs are unique digital avatars that give you access to all game, anime and webtoon content on the Stardapp.
         </p>
       </div>
+
+      <div className="max-w-4xl justify-center flex p-8 m-auto my-8 bg-blue bg-gradient-to-t from-blue-800/40 to-blue-900/20 rounded-3xl">
+
+<div className='grid grid-cols-2 gap-12 sm:grid-cols-1 md:grid-cols-2'>
+
+  <div>
+  <Image
+        className="m-auto py-2 rounded-3xl"
+        src="/assets/aveyon_collection_standard.jpg"
+        alt="Aveyon Standard"
+        width={1500}
+        height={1500}
+      />
+<h1 className="text-yellow-100 text-xl text-center mt-4">Aveyon Founder Edition Standard</h1>
+<p className='text-white font-Proza text-center text-sm mt-2'>Become a founder, play the video games and earn a limited amount of tokens.</p>
+
+<p className='text-white font-Proza text-center text-sm mt-4'>Price: 5 Matic</p>
+  </div>
+
+
+
+  <div>
+  <Image
+        className="m-auto py-2 rounded-3xl"
+        src="/assets/aveyon_collection_deluxe.jpg"
+        alt="Aveyon Standard"
+        width={1500}
+        height={1500}
+      />
+<h1 className="text-yellow-100 text-xl text-center mt-4">Aveyon Founder Edition Deluxe</h1>
+<p className='text-white font-Proza text-center text-sm mt-2'>Become a founder, get full access to all content and earn rewards.</p>
+
+<p className='text-white font-Proza text-center text-sm mt-4'>Price: 48 Matic</p>
+  </div>
+</div>
+ </div>
+
+<div>
+
+<h1 className=" font-Proza text-md text-center text-white text-lg">Preview of the Founders Deluxe Edition. Reveal will be one week after the mint...</h1>
+
+</div>
+
+
+ <div className="grid lg:grid-cols-4 sm:grid-cols-1 md:grid-cols-2 gap-4 w-3/4 justify-center m-auto shadow-2xl py-8 px-8 my-4 rounded-3xl">
+
+
+<div>
+
+<Image
+              className="flex items-center justify-center mx-auto  rounded-3xl"
+              src="/assets/founder_lionDESERT02.jpg"
+              alt="Desert Lion"
+              width={1000}
+              height={1000}
+            />
+
+</div>
+
+<div>
+
+<Image
+              className="flex items-center justify-center mx-auto  rounded-3xl"
+              src="/assets/founder_panther.jpg"
+              alt="Akasha Promo 04"
+              width={1000}
+              height={1000}
+            />
+
+</div>
+
+
+<div>
+
+<Image
+              className="flex items-center justify-center mx-auto  rounded-3xl"
+              src="/assets/founder_whitelionNEW.jpg"
+              alt="White lion"
+              width={1000}
+              height={1000}
+            />
+
+</div>
+
+
+<div>
+
+<Image
+              className="flex items-center justify-center mx-auto rounded-3xl"
+              src="/assets/founder_tiger02.jpg"
+              alt="Tiger"
+              width={1000}
+              height={1000}
+            />
+
+</div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <div className=' items-center justify-center w-full '>
   
 <AkashaMint/>
 
-<div className='m-auto justify-center flex rounded-3xl bg-gradient-to-t from-blue-800/40 to-blue-900/20 mb-8 sm:max-w-xl sm:py-5 md:max-w-full lg:max-w-screen-sm'>
 
-<div>
-<h1 className='text-yellow-100 text-center font-Proza text-lg'>Cool utilities for your Akasha alien:</h1>
-<p className='text-white text-center font-Proza text-md py-2'>1. Collect the unique Akasha Aliens.</p>
-<p className='text-white text-center font-Proza text-md py-2'>2. Play Hypersleep Game and get HYPER token rewards.</p>
-<p className='text-white text-center font-Proza text-md py-2'>3. Get STARDUST airdrops for your HYPER token balance.</p>
-<p className='text-white text-center font-Proza text-md py-2'>4. Use your Akasha alien in the upcoming Stargazer RPG, Anime and Webtoon.</p>
-
-</div>
-
-</div>
 
 <div className="grid lg:grid-cols-4 sm:grid-cols-1 md:grid-cols-2 gap-4 w-3/4 justify-center m-auto shadow-2xl py-8 px-8 my-8 rounded-3xl">
 
@@ -123,13 +221,7 @@ const NFTMint = () => {
 
 
 
-<div className="text-yellow-100 text-2xl tracking-widest font-Proza text-center font-semibold">SKY GODZ Founder Edition coming soon...</div>
-
-<NftCard/>
-
-  
-
-<div className=" pt-14 m-auto  justify-center">
+<div className=" pt-8 m-auto  justify-center">
 <h1 className=" text-white text-lg text-center font-semibold">
               Use your SKY GODZ Collection NFTs for the following cool things:
             </h1></div>
