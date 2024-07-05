@@ -133,12 +133,12 @@ import { Container } from 'postcss';
 
 
 
-<div className="  max-w-screen-lg justify-center m-auto p-12 bg-gradient-to-t from-blue-800/40 to-blue-900/20  rounded-3xl border-1 shadow-2xl">
+<div className="  max-w-screen-lg justify-center flex m-auto p-12 bg-gradient-to-t from-blue-800/40 to-blue-900/20  rounded-3xl border-1 shadow-2xl">
 
-<div className="grid grid-cols-2 gap-4">
+<div className="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-2 gap-4">
 
 
-<div className="">
+<div className="justify-center m-auto flex">
 <Image
               className=" rounded-3xl w-96 "
               src="/assets/stardust.gif"
@@ -148,11 +148,11 @@ import { Container } from 'postcss';
             /></div>
 
 <div className='self-start'>
-<h1 className='text-yellow-100 text-2xl font-Cinzel mb-4 tracking-wider font-semibold'>STARDUST TOKEN</h1>
+<h1 className='text-yellow-100 text-2xl font-Cinzel mb-4 tracking-wider font-semibold sm:text-center'>STARDUST TOKEN</h1>
 
-<p className='text-white text-lg font-Proza'>The STARDUST Token is the in-game and reward token for all activities in the Stardapp as well as the entire SKY GODZ universe. Earn STAR by playing games, watching anime, reading webtoons and trading NFTs..</p>
+<p className='text-white text-lg font-Proza text-center'>The STARDUST Token is the in-game and reward token for all activities in the Stardapp as well as the entire SKY GODZ universe. Earn STAR by playing games, watching anime, reading webtoons and trading NFTs..</p>
 
-<div className=" py-8">
+<div className=" py-8 justify-center m-auto flex">
 <button className=" bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-6 rounded-xl mt-5">
   Fairlaunch on Pinksale
 </button></div>

@@ -29,11 +29,11 @@ const NFTMint = () => {
     
 
   return (
-    <div className="justify-center px-4 py-16 mx-auto  sm:px-4 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-8">
+    <div className="justify-center px-4 py-16 mx-auto  sm:px-4 sm:py-4 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-8">
     <div className="max-w-screen-sm sm:text-center sm:mx-auto">
       
 
-        <div className="m-auto w-96">
+        <div className="m-auto lg:w-96 sm:w-64">
         <Image
         className="m-auto py-2"
         src="/assets/star_divider.svg"
@@ -53,7 +53,7 @@ const NFTMint = () => {
 
       <div className="max-w-4xl justify-center flex p-8 m-auto my-8 bg-blue bg-gradient-to-t from-blue-800/40 to-blue-900/20 rounded-3xl">
 
-<div className='grid grid-cols-2 gap-12 sm:grid-cols-1 md:grid-cols-2'>
+<div className='grid grid-cols-2  gap-12 sm:grid-cols-1 md:grid-cols-2'>
 
   <div>
   <Image
@@ -75,7 +75,7 @@ const NFTMint = () => {
   <Image
         className="m-auto py-2 rounded-3xl"
         src="/assets/aveyon_collection_deluxe.jpg"
-        alt="Aveyon Standard"
+        alt="Aveyon Deluxe"
         width={1500}
         height={1500}
       />
@@ -227,7 +227,7 @@ const NFTMint = () => {
             </h1></div>
 
 <div className="py-4 flex items-center justify-center">
-      <div className="w-4/5 m-auto grid gap-8 row-gap-5 md:row-gap-8 lg:grid-cols-3 mt-10 sm:grid-cols-2">
+      <div className="w-4/5 m-auto grid gap-8 row-gap-5 md:row-gap-8 lg:grid-cols-3 mt-10 sm:grid-cols-1">
         <div className="duration-300 transform bg-blue-900 border-l-4 border-deep-purple-accent-900 hover:-translate-y-2 rounded-2xl">
           <div className="h-full p-5 rounded-r shadow-sm">
             <h6 className="mb-2 font-semibold leading-5 text-blue-300">Play the RPG with your NFT</h6>

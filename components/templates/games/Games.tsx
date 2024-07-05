@@ -9,14 +9,14 @@ const Games = () => {
      
   
 
-          <div className="w-10/12 justify-center m-auto flex mb-4 ">
-   <div className="m-auto py-2 ">
+          <div className="w-full justify-center m-auto flex mb-4 ">
+          <div className="m-auto ">
               <Image
-              className="m-auto  rounded-3xl"
-              src="/assets/game_coverNEW01.jpg"
-              alt="Game Screen"
-              width={1260}
-              height={750}
+              className="m-auto rounded-3xl"
+              src="/assets/lion_warriror_gif.gif"
+              alt="Game GIF"
+              width={889}
+              height={500}
             />
               </div>
 
@@ -39,13 +39,15 @@ const Games = () => {
             Play now
 </button></Link></div>
 
+
+
 <div className="w-10/12 justify-center m-auto flex">
 <h1 className='text-yellow-100 text-2xl text-center my-8'>More cosmic Adventure Games coming bi-monthly!</h1></div>
 
 
 <div className="justify-center m-auto flex w-10/12">
 
-<div className="grid grid-cols-3 gap-4">
+<div className="grid grid-cols-3 md:grid-cols-3 sm:grid-cols-1 gap-4">
 
   <div>
   <Image

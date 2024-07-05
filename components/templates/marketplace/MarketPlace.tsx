@@ -6,11 +6,11 @@ const MarketPlace = () => {
  
     return (
 
-      <div className="justify-center px-4 py-16 mx-auto  sm:px-4 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-8">
+      <div className="justify-center px-4 py-16 mx-auto  sm:px-4 sm:py-4 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-8">
       <div className="max-w-screen-sm sm:text-center sm:mx-auto">
         
 
-      <div className="m-auto w-96">
+      <div className="m-auto lg:w-96 sm:w-64">
       <Image
       className="m-auto py-2"
       src="/assets/star_divider.svg"
@@ -24,7 +24,7 @@ const MarketPlace = () => {
        Sky Godz Marketplace
             </h2>
             <hr className="w-full  border-yellow-200" />
-            <p className="text-base text-white lg:text-xl md:text-lg sm:px-4 py-5 font-Proza">
+            <p className="text-base text-white lg:text-xl md:text-lg sm:px-4 py-5 font-Proza text-center">
             List, sell and buy NFTs and collectibles in the SKY GODZ Marketplace
             </p>
            </div>

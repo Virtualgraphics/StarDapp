@@ -9,18 +9,17 @@ import React from 'react';
 
 
 const Token = () => {
-  const { contract: tokenDropContract} = useContract("0xd23342d614a1ff1d7bc84b9041C8615532D55C6D");
-  const [amountToClaim, setAmountToClaim] = useState("");
+
 
   
       return (
 
 
-        <div className="justify-center px-4 py-16 mx-auto  sm:px-4 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-8">
+        <div className="justify-center px-4 py-16 mx-auto  sm:px-4 sm:py-4 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-8">
         <div className="max-w-screen-sm sm:text-center sm:mx-auto">
           
   
-        <div className="m-auto w-96">
+        <div className="m-auto lg:w-96 sm:w-64">
         <Image
         className="m-auto py-2"
         src="/assets/star_divider.svg"
@@ -74,7 +73,7 @@ const Token = () => {
 
 <div className="max-w-3xl justify-center m-auto flex mt-4">
 
-<p className='text-blue-200 text-md font-Proza'>Contract Address: 0x132f4dB1Ee1CDD163DccA35706aE1ce0EC2dbA74 </p>
+<p className='text-blue-200 text-md font-Proza text-center'>Contract Address: 0x132f4dB1Ee1CDD163DccA35706aE1ce0EC2dbA74 </p>
 </div>
 
 
@@ -86,7 +85,7 @@ const Token = () => {
               Use your SKY GODZ tokens for the following cool activities:
             </h1></div>
 
-      <div className="w-4/5 m-auto grid gap-8 row-gap-5 md:row-gap-8 lg:grid-cols-3 mt-10 sm:grid-cols-2">
+      <div className="w-4/5 m-auto grid gap-8 row-gap-5 md:row-gap-8 lg:grid-cols-3 mt-10 sm:grid-cols-1">
         <div className="duration-300 transform bg-blue-900 border-l-4 border-deep-purple-accent-900 hover:-translate-y-2 rounded-2xl">
           <div className="h-full p-5 rounded-r shadow-sm">
             <h6 className="mb-2 font-semibold leading-5 text-blue-300">Earn rewards in the Games</h6>
