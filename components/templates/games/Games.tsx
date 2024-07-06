@@ -34,7 +34,7 @@ const Games = () => {
 
 
 <div className="w-full justify-center m-auto flex ">
-             <Link href="https://flourishing-pothos-93567e.netlify.app">
+             <Link href="">
             <button className="bg-blue-800 hover:bg-black text-yellow-100  w-40 h-12 px-4 rounded  text-xl text-Jost">
             Play now
 </button></Link></div>

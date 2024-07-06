@@ -6,7 +6,7 @@ import { FC, useEffect } from 'react';
 import { ConnectWallet, useAddress } from "@thirdweb-dev/react";
 import Image from 'next/image'
 import React from 'react';
-
+import Link from 'next/link'
 
 const Token = () => {
 
@@ -39,7 +39,7 @@ const Token = () => {
 
 <Image
               className=" rounded-3xl  "
-              src="/assets/stardust_banner.jpg"
+              src="/assets/stardust_banner02.jpg"
               alt="Stardust"
               width={1990}
               height={900}
@@ -55,10 +55,10 @@ const Token = () => {
 <div className="max-w-5xl justify-center m-auto flex mt-8">
 <div className="grid grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-12"></div>
 
-<div className=" py-2 px-8">
+<div className=" py-2 px-8"> <Link href="https://www.skygodz.com/skygodz_litepaper.pdf">
 <button className=" bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-6 rounded-xl mt-5">
   Read Litepaper
-</button></div>
+</button></Link></div>
 
 <div className=" py-2 px-8">
 <button className=" bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-6 rounded-xl mt-5">
@@ -66,6 +66,29 @@ const Token = () => {
 </button></div>
 
 </div>
+<div className="max-w-3xl justify-center m-auto flex mt-8">
+
+<p className='text-blue-200 text-2xl font-Proza text-center'>Benefits of the STARDUST token:</p></div>
+
+<div className="max-w-3xl justify-center m-auto flex mt-8">
+
+<ul className="list-disc"> 
+<li className="text-white font-Proza text-md ">Experienced and fully doxed Team</li>
+<li className="text-white font-Proza text-md"> Real Project with real products</li>
+<li className="text-white font-Proza text-md">Token launch supported by NFT Collection</li>
+<li className="text-white font-Proza text-md">Start playing games after the token launch</li>
+<li className="text-white font-Proza text-md"> Active Dapp (Stardapp)</li>
+<li className="text-white font-Proza text-md"> Aggressive marketing campaign</li>
+<li className="text-white font-Proza text-md"> Liquidity locked for 365 Days</li>
+<li className="text-white font-Proza text-md"> Locked supply with vesting schedule</li>
+<li className="text-white font-Proza text-md"> 0% Tax </li>
+<li className="text-white font-Proza text-md"> Listing on all token sites</li>
+<li className="text-white font-Proza text-md"> Customer Support by email and Discord</li>
+
+</ul></div>
+
+
+
 
 <div className="max-w-3xl justify-center m-auto flex mt-8">
 

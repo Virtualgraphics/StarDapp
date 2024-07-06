@@ -56,12 +56,16 @@ function NavBar() {
          <Link href="games" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-12  text-white hover:text-yellow-100">
            GAMES
          </Link>
-         <Link href="nftmint" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-12  text-white hover:text-yellow-100">
-           NFTs
+         <Link href="anime" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-12  text-white hover:text-yellow-100">
+           ANIME
          </Link>
-
+    
          <Link href="webtoon" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-12  text-white hover:text-yellow-100">
            WEBTOONS
+         </Link>
+
+             <Link href="nftmint" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-12  text-white hover:text-yellow-100">
+           NFTs
          </Link>
          
          <Link href="token" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-12  text-white hover:text-yellow-100">
