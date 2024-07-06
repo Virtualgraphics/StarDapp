@@ -99,6 +99,23 @@ const Token = () => {
 <p className='text-blue-200 text-md font-Proza text-center'>Contract Address: 0x132f4dB1Ee1CDD163DccA35706aE1ce0EC2dbA74 </p>
 </div>
 
+<div className="max-w-3xl justify-center m-auto flex mt-4">
+
+<p className='text-blue-200 text-md font-Proza text-center'>Max. Supply: 666 Billion</p>
+</div>
+
+<div className="max-w-5xl justify-center m-auto flex mt-8">
+
+<Image
+              className=" rounded-3xl  "
+              src="/assets/stardust_pie.png"
+              alt="Stardust"
+              width={881}
+              height={460}
+            />
+</div>
+  
+
 
 
 <div className="pb-12  justify-items-center overflow-hidden">
