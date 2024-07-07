@@ -96,12 +96,12 @@ const Token = () => {
 
 <div className="max-w-3xl justify-center m-auto flex mt-4">
 
-<p className='text-blue-200 text-md font-Proza text-center'>Contract Address: 0x132f4dB1Ee1CDD163DccA35706aE1ce0EC2dbA74 </p>
+<p className='text-blue-200 text-md font-Proza text-center'>Contract Address: 0x5ADEec9c3a4eAdE2A329A2ff2647EAE29C57D296 </p>
 </div>
 
 <div className="max-w-3xl justify-center m-auto flex mt-4">
 
-<p className='text-blue-200 text-md font-Proza text-center'>Max. Supply: 666 Billion</p>
+<p className='text-blue-200 text-md font-Proza text-center'>Max. Supply: 888 Billion</p>
 </div>
 
 <div className="max-w-5xl justify-center m-auto flex mt-8">
