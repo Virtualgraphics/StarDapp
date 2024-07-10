@@ -104,14 +104,14 @@ const Token = () => {
 <p className='text-blue-200 text-md font-Proza text-center'>Max. Supply: 888 Billion</p>
 </div>
 
-<div className="max-w-5xl justify-center m-auto flex mt-8">
+<div className="max-w-4xl justify-center m-auto flex mt-8">
 
 <Image
               className=" rounded-3xl  "
-              src="/assets/stardust_pie.png"
+              src="/assets/stardust_pieNEW.png"
               alt="Stardust"
-              width={881}
-              height={460}
+              width={2053}
+              height={1536}
             />
 </div>
   
